@@ -5,7 +5,7 @@ An in-depth diagnostic of the global labor market spanning 34 years, evaluating 
 ---
 
 ## 📌 Project Overview
-This study utilizes historical data to analyze the stabilization of global labor markets following the 2020 economic shock[cite: 2, 3]. [cite_start]By leveraging datasets provided by **Luca Lullo**, the project identifies regions with high volatility and tracks the pace of recovery across different demographics.
+This study utilizes historical data to analyze the stabilization of global labor markets following the 2020 economic shock. By leveraging datasets provided by **Luca Lullo**, the project identifies regions with high volatility and tracks the pace of recovery across different demographics.
 
 * **Global Coverage**: Analysis of 183 countries.
 * **Historical Average**: Global unemployment rate of 7.96%.
