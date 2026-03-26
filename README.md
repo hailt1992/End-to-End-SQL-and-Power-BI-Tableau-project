@@ -1,6 +1,6 @@
 # Global Unemployment Analysis (1991–2025)
 
-An in-depth diagnostic of the global labor market spanning 34 years, evaluating long-term trends, gender equity gaps, and post-pandemic recovery[cite: 2].
+An in-depth diagnostic of the global labor market spanning 34 years, evaluating long-term trends, gender equity gaps, and post-pandemic recovery.
 
 ---
 
