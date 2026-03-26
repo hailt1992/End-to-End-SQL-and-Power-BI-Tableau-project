@@ -42,4 +42,4 @@ This study utilizes historical data to analyze the stabilization of global labor
 * **34-Year Trend Line**: Global unemployment fluctuations from 1991 to 2025.
 * **Gender Gap Map**: Regional comparison of labor equity across continents.
 * **Volatility Bar Chart**: Ranking countries based on labor market instability.
-* **Recovery Table**: Detailed post-2020 stabilization rates by country.
+* **Recovery Table**: Detailed post-2020 stabilization rates by country. 
