@@ -15,6 +15,8 @@ It includes **8 product categories**, each with **25 items** and static pricing.
 ## 🧰 Tools Used
 - 🗄️ SQL → Data Cleaning
 - 📊 Power BI → Data Visualization & Dashboarding
+- 📊 Tableau → Data Visualization & Dashboarding
+https://public.tableau.com/app/profile/hai.le6258/viz/RetailStore_17758525999160/SalesPerformance?publish=yes
 
 ---
 
