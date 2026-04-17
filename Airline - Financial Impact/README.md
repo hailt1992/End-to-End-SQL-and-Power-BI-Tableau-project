@@ -47,6 +47,6 @@ The dataset reflects real-world-like consequences across the aviation sector:
 
 Use this dataset to:
 - Analyze airline financial performance during crisis periods  
-- Visualize fuel price vs airfare correlation  
+- Visualize financial impact: Revenue, Profit, Cost, Fuel Cost across conflict phases
 - Explore the **Global Conflict Phase impact**  
 - Build dashboards for trend and shock analysis  
