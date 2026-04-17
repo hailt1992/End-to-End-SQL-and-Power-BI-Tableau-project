@@ -26,9 +26,9 @@ Data cleaning was performed using SQL to ensure data quality and reliability.
 
 ---
 
-## 📊 Power BI – Data Visualization & Dashboard
+## 📊 Power BI and Tableau – Data Visualization & Dashboard
 
-An interactive Power BI dashboard was built to analyze sales performance and business trends.
+An interactive Power BI and Tableau dashboard was built to analyze sales performance and business trends.
 
 ### 📈 Key Features
 
