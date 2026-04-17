@@ -6,7 +6,6 @@ This project demonstrates an end-to-end **Business Intelligence workflow**, tran
 
 The dataset contains 10,000 rows of intentionally dirty data, simulating real-world challenges such as missing values, inconsistencies, and incorrect records.
 
-
 ---
 ## 🧹 SQL – Data Cleaning & Preparation
 
@@ -29,6 +28,8 @@ Data cleaning was performed using SQL to ensure data quality and reliability.
 ## 📊 Power BI and Tableau – Data Visualization & Dashboard
 
 An interactive Power BI and Tableau dashboard was built to analyze sales performance and business trends.
+
+https://public.tableau.com/app/profile/hai.le6258/vizzes
 
 ### 📈 Key Features
 
