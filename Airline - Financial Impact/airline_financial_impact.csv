@@ -1,0 +1,726 @@
+quarter,month,conflict_phase,airline,country,region,airline_type,fleet_size,revenue_usd_m,fuel_cost_usd_m,fuel_cost_pct_revenue,net_profit_usd_m,profit_margin_pct,passengers_carried_m,fuel_hedging_pct,hedge_savings_usd_m,brent_crude_usd_barrel,jet_fuel_usd_barrel,daily_fuel_consumption_bbl,quarterly_fuel_bbl
+2019-Q1,2019-01,Pre-Pandemic Baseline,Emirates,UAE,Middle East,Flag Carrier,260,7254.03,576.88,7.95,995.04,13.72,2.31,64.0,0.0,63.0,74.58,85000,7735000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Emirates,UAE,Middle East,Flag Carrier,260,7685.08,567.28,7.38,973.28,12.66,2.86,56.0,0.0,64.79,73.34,85000,7735000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Emirates,UAE,Middle East,Flag Carrier,260,7655.78,550.04,7.18,994.88,13.0,2.64,61.1,0.0,60.46,71.11,85000,7735000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Emirates,UAE,Middle East,Flag Carrier,260,7250.33,595.36,8.21,818.21,11.29,2.63,53.4,0.0,65.66,76.97,85000,7735000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Emirates,UAE,Middle East,Flag Carrier,260,7583.43,583.06,7.69,330.17,4.35,2.76,1.5,0.0,66.66,75.38,85000,7735000
+2020-Q2,2020-04,COVID-19 Collapse,Emirates,UAE,Middle East,Flag Carrier,260,1860.68,183.24,9.85,-447.05,-24.03,0.69,54.7,0.0,20.57,23.69,85000,7735000
+2020-Q3,2020-07,COVID-19 Collapse,Emirates,UAE,Middle East,Flag Carrier,260,1961.0,390.08,19.89,-792.33,-40.4,0.68,33.6,0.0,44.05,50.43,85000,7735000
+2020-Q4,2020-10,COVID-19 Collapse,Emirates,UAE,Middle East,Flag Carrier,260,1558.41,353.18,22.66,-536.06,-34.4,0.58,33.7,0.0,39.95,45.66,85000,7735000
+2021-Q1,2021-01,COVID-19 Collapse,Emirates,UAE,Middle East,Flag Carrier,260,2109.38,663.43,31.45,-687.76,-32.6,0.75,6.0,0.0,75.49,85.77,85000,7735000
+2021-Q2,2021-04,COVID-19 Collapse,Emirates,UAE,Middle East,Flag Carrier,260,2438.01,703.27,28.85,-831.4,-34.1,0.89,43.4,3.12,76.83,90.92,85000,7735000
+2021-Q3,2021-07,Recovery & Surge,Emirates,UAE,Middle East,Flag Carrier,260,5871.44,695.53,11.85,-266.95,-4.55,2.22,53.9,0.0,78.97,89.92,85000,7735000
+2021-Q4,2021-10,Recovery & Surge,Emirates,UAE,Middle East,Flag Carrier,260,5921.45,806.37,13.62,63.51,1.07,2.18,37.4,47.75,86.82,104.25,85000,7735000
+2022-Q1,2022-01,Recovery & Surge,Emirates,UAE,Middle East,Flag Carrier,260,5442.54,629.94,11.57,283.23,5.2,1.94,5.0,0.0,72.01,81.44,85000,7735000
+2022-Q2,2022-04,Ukraine War Shock,Emirates,UAE,Middle East,Flag Carrier,260,6981.04,1018.16,14.58,487.05,6.98,2.62,60.6,285.4,109.53,131.63,85000,7735000
+2022-Q3,2022-07,Ukraine War Shock,Emirates,UAE,Middle East,Flag Carrier,260,7741.42,730.88,9.44,312.33,4.03,2.68,28.2,10.28,80.69,94.49,85000,7735000
+2022-Q4,2022-10,Ukraine War Shock,Emirates,UAE,Middle East,Flag Carrier,260,7161.09,816.51,11.4,171.74,2.4,2.33,10.0,14.12,93.25,105.56,85000,7735000
+2023-Q1,2023-01,Stabilisation,Emirates,UAE,Middle East,Flag Carrier,260,7469.28,751.3,10.06,606.35,8.12,2.51,28.9,17.2,84.29,97.13,85000,7735000
+2023-Q2,2023-04,Stabilisation,Emirates,UAE,Middle East,Flag Carrier,260,7193.07,788.74,10.97,832.58,11.57,2.34,3.6,3.78,88.18,101.97,85000,7735000
+2023-Q3,2023-07,Stabilisation,Emirates,UAE,Middle East,Flag Carrier,260,7500.79,754.32,10.06,472.98,6.31,2.68,3.8,2.4,85.16,97.52,85000,7735000
+2023-Q4,2023-10,Gaza-Israel Conflict,Emirates,UAE,Middle East,Flag Carrier,260,7120.39,695.84,9.77,394.39,5.54,2.37,21.4,0.0,78.33,89.96,85000,7735000
+2024-Q1,2024-01,Gaza-Israel Conflict,Emirates,UAE,Middle East,Flag Carrier,260,7354.22,765.92,10.41,676.69,9.2,2.62,21.6,16.58,84.61,99.02,85000,7735000
+2024-Q2,2024-04,Gaza-Israel Conflict,Emirates,UAE,Middle East,Flag Carrier,260,7388.93,787.27,10.65,1027.15,13.9,2.42,9.9,10.2,84.06,101.78,85000,7735000
+2024-Q3,2024-07,Gaza-Israel Conflict,Emirates,UAE,Middle East,Flag Carrier,260,7681.62,726.94,9.46,622.49,8.1,2.86,27.6,8.87,80.4,93.98,85000,7735000
+2024-Q4,2024-10,Gaza-Israel Conflict,Emirates,UAE,Middle East,Flag Carrier,260,6907.94,870.34,12.6,535.28,7.75,2.46,29.1,63.37,94.78,112.52,85000,7735000
+2025-Q1,2025-01,Pre-Iran Escalation,Emirates,UAE,Middle East,Flag Carrier,260,7320.43,785.41,10.73,1023.63,13.98,2.57,45.3,45.62,85.13,101.54,85000,7735000
+2025-Q2,2025-04,Pre-Iran Escalation,Emirates,UAE,Middle East,Flag Carrier,260,7567.02,931.53,12.31,302.81,4.0,2.66,62.6,197.16,101.77,120.43,85000,7735000
+2025-Q3,2025-07,Pre-Iran Escalation,Emirates,UAE,Middle East,Flag Carrier,260,7595.15,868.02,11.43,562.37,7.4,2.57,19.7,42.22,93.24,112.22,85000,7735000
+2025-Q4,2025-10,Pre-Iran Escalation,Emirates,UAE,Middle East,Flag Carrier,260,7481.47,863.77,11.55,372.07,4.97,2.49,32.4,67.38,99.34,111.67,85000,7735000
+2026-Q1,2026-01,US-Iran War Conflict,Emirates,UAE,Middle East,Flag Carrier,260,4595.08,1135.5,24.71,-590.55,-12.85,1.69,10.6,75.96,130.88,146.8,85000,7735000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4529.04,488.65,10.79,576.24,12.72,2.37,53.4,0.0,63.0,74.58,72000,6552000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4519.18,480.52,10.63,207.09,4.58,2.23,56.6,0.0,64.79,73.34,72000,6552000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4536.56,465.91,10.27,591.66,13.04,2.07,19.4,0.0,60.46,71.11,72000,6552000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4573.1,504.31,11.03,252.02,5.51,2.41,26.8,0.0,65.66,76.97,72000,6552000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4508.38,493.89,10.95,246.72,5.47,2.18,1.1,0.0,66.66,75.38,72000,6552000
+2020-Q2,2020-04,COVID-19 Collapse,Qatar Airways,Qatar,Middle East,Flag Carrier,234,805.73,155.22,19.26,-361.83,-44.91,0.36,64.8,0.0,20.57,23.69,72000,6552000
+2020-Q3,2020-07,COVID-19 Collapse,Qatar Airways,Qatar,Middle East,Flag Carrier,234,1108.97,330.42,29.79,-296.95,-26.78,0.57,57.2,0.0,44.05,50.43,72000,6552000
+2020-Q4,2020-10,COVID-19 Collapse,Qatar Airways,Qatar,Middle East,Flag Carrier,234,789.71,299.16,37.88,-251.59,-31.86,0.37,35.7,0.0,39.95,45.66,72000,6552000
+2021-Q1,2021-01,COVID-19 Collapse,Qatar Airways,Qatar,Middle East,Flag Carrier,234,1000.96,561.97,56.14,-404.47,-40.41,0.51,2.5,0.0,75.49,85.77,72000,6552000
+2021-Q2,2021-04,COVID-19 Collapse,Qatar Airways,Qatar,Middle East,Flag Carrier,234,1521.98,595.71,39.14,-629.24,-41.34,0.76,49.0,2.98,76.83,90.92,72000,6552000
+2021-Q3,2021-07,Recovery & Surge,Qatar Airways,Qatar,Middle East,Flag Carrier,234,3073.71,589.16,19.17,207.25,6.74,1.47,64.8,0.0,78.97,89.92,72000,6552000
+2021-Q4,2021-10,Recovery & Surge,Qatar Airways,Qatar,Middle East,Flag Carrier,234,3069.87,683.05,22.25,132.56,4.32,1.4,26.2,28.34,86.82,104.25,72000,6552000
+2022-Q1,2022-01,Recovery & Surge,Qatar Airways,Qatar,Middle East,Flag Carrier,234,3416.22,533.59,15.62,9.57,0.28,1.62,49.9,0.0,72.01,81.44,72000,6552000
+2022-Q2,2022-04,Ukraine War Shock,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4920.9,862.44,17.53,230.54,4.68,2.41,27.4,109.31,109.53,131.63,72000,6552000
+2022-Q3,2022-07,Ukraine War Shock,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4711.5,619.1,13.14,150.87,3.2,2.45,51.8,16.0,80.69,94.49,72000,6552000
+2022-Q4,2022-10,Ukraine War Shock,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4708.63,691.63,14.69,375.24,7.97,2.54,60.0,71.74,93.25,105.56,72000,6552000
+2023-Q1,2023-01,Stabilisation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4761.38,636.4,13.37,433.95,9.11,2.35,30.3,15.28,84.29,97.13,72000,6552000
+2023-Q2,2023-04,Stabilisation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4682.49,668.11,14.27,530.07,11.32,2.52,2.9,2.58,88.18,101.97,72000,6552000
+2023-Q3,2023-07,Stabilisation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4532.15,638.95,14.1,276.56,6.1,2.37,27.3,14.57,85.16,97.52,72000,6552000
+2023-Q4,2023-10,Gaza-Israel Conflict,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4709.49,589.42,12.52,409.33,8.69,2.47,32.5,0.0,78.33,89.96,72000,6552000
+2024-Q1,2024-01,Gaza-Israel Conflict,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4795.29,648.78,13.53,201.15,4.19,2.43,15.7,10.21,84.61,99.02,72000,6552000
+2024-Q2,2024-04,Gaza-Israel Conflict,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4914.95,666.86,13.57,565.98,11.52,2.22,6.7,5.85,84.06,101.78,72000,6552000
+2024-Q3,2024-07,Gaza-Israel Conflict,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4569.92,615.76,13.47,240.27,5.26,2.35,64.1,17.45,80.4,93.98,72000,6552000
+2024-Q4,2024-10,Gaza-Israel Conflict,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4787.72,737.23,15.4,310.75,6.49,2.38,52.4,96.66,94.78,112.52,72000,6552000
+2025-Q1,2025-01,Pre-Iran Escalation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4972.28,665.29,13.38,201.41,4.05,2.45,29.5,25.16,85.13,101.54,72000,6552000
+2025-Q2,2025-04,Pre-Iran Escalation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4642.96,789.06,16.99,419.65,9.04,2.23,22.4,59.76,101.77,120.43,72000,6552000
+2025-Q3,2025-07,Pre-Iran Escalation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4462.78,735.27,16.48,401.58,9.0,2.33,6.8,12.34,93.24,112.22,72000,6552000
+2025-Q4,2025-10,Pre-Iran Escalation,Qatar Airways,Qatar,Middle East,Flag Carrier,234,4837.77,731.66,15.12,323.05,6.68,2.32,64.2,113.1,99.34,111.67,72000,6552000
+2026-Q1,2026-01,US-Iran War Conflict,Qatar Airways,Qatar,Middle East,Flag Carrier,234,3093.21,961.83,31.09,-328.43,-10.62,1.55,21.0,127.48,130.88,146.8,72000,6552000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Etihad Airways,UAE,Middle East,Flag Carrier,110,2646.3,257.9,9.75,226.86,8.57,1.18,37.1,0.0,63.0,74.58,38000,3458000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Etihad Airways,UAE,Middle East,Flag Carrier,110,2678.16,253.61,9.47,334.37,12.49,1.19,26.1,0.0,64.79,73.34,38000,3458000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Etihad Airways,UAE,Middle East,Flag Carrier,110,2544.74,245.9,9.66,322.95,12.69,0.99,18.2,0.0,60.46,71.11,38000,3458000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Etihad Airways,UAE,Middle East,Flag Carrier,110,2462.61,266.16,10.81,108.87,4.42,1.05,58.6,0.0,65.66,76.97,38000,3458000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Etihad Airways,UAE,Middle East,Flag Carrier,110,2465.4,260.66,10.57,294.79,11.96,1.01,40.2,0.0,66.66,75.38,38000,3458000
+2020-Q2,2020-04,COVID-19 Collapse,Etihad Airways,UAE,Middle East,Flag Carrier,110,772.01,81.92,10.61,-210.36,-27.25,0.3,7.5,0.0,20.57,23.69,38000,3458000
+2020-Q3,2020-07,COVID-19 Collapse,Etihad Airways,UAE,Middle East,Flag Carrier,110,853.84,174.39,20.42,-367.26,-43.01,0.34,28.5,0.0,44.05,50.43,38000,3458000
+2020-Q4,2020-10,COVID-19 Collapse,Etihad Airways,UAE,Middle East,Flag Carrier,110,801.22,157.89,19.71,-239.84,-29.93,0.34,45.0,0.0,39.95,45.66,38000,3458000
+2021-Q1,2021-01,COVID-19 Collapse,Etihad Airways,UAE,Middle East,Flag Carrier,110,791.6,296.59,37.47,-310.2,-39.19,0.3,8.3,0.0,75.49,85.77,38000,3458000
+2021-Q2,2021-04,COVID-19 Collapse,Etihad Airways,UAE,Middle East,Flag Carrier,110,466.73,314.4,67.36,-205.36,-44.0,0.2,57.5,1.85,76.83,90.92,38000,3458000
+2021-Q3,2021-07,Recovery & Surge,Etihad Airways,UAE,Middle East,Flag Carrier,110,2019.93,310.94,15.39,-51.47,-2.55,0.86,33.8,0.0,78.97,89.92,38000,3458000
+2021-Q4,2021-10,Recovery & Surge,Etihad Airways,UAE,Middle East,Flag Carrier,110,2075.68,360.5,17.37,150.48,7.25,0.91,33.3,19.01,86.82,104.25,38000,3458000
+2022-Q1,2022-01,Recovery & Surge,Etihad Airways,UAE,Middle East,Flag Carrier,110,1918.13,281.62,14.68,105.52,5.5,0.74,10.0,0.0,72.01,81.44,38000,3458000
+2022-Q2,2022-04,Ukraine War Shock,Etihad Airways,UAE,Middle East,Flag Carrier,110,2470.19,455.18,18.43,197.05,7.98,0.94,22.4,47.16,109.53,131.63,38000,3458000
+2022-Q3,2022-07,Ukraine War Shock,Etihad Airways,UAE,Middle East,Flag Carrier,110,2457.46,326.75,13.3,144.64,5.89,1.02,46.4,7.56,80.69,94.49,38000,3458000
+2022-Q4,2022-10,Ukraine War Shock,Etihad Airways,UAE,Middle East,Flag Carrier,110,2614.04,365.03,13.96,241.07,9.22,1.02,28.1,17.73,93.25,105.56,38000,3458000
+2023-Q1,2023-01,Stabilisation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2555.13,335.88,13.15,130.96,5.13,1.0,21.9,5.83,84.29,97.13,38000,3458000
+2023-Q2,2023-04,Stabilisation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2666.09,352.61,13.23,146.68,5.5,1.06,44.0,20.63,88.18,101.97,38000,3458000
+2023-Q3,2023-07,Stabilisation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2620.29,337.22,12.87,132.17,5.04,1.19,9.6,2.7,85.16,97.52,38000,3458000
+2023-Q4,2023-10,Gaza-Israel Conflict,Etihad Airways,UAE,Middle East,Flag Carrier,110,2442.86,311.08,12.73,172.04,7.04,0.93,2.0,0.0,78.33,89.96,38000,3458000
+2024-Q1,2024-01,Gaza-Israel Conflict,Etihad Airways,UAE,Middle East,Flag Carrier,110,2614.35,342.41,13.1,338.02,12.93,1.07,19.6,6.73,84.61,99.02,38000,3458000
+2024-Q2,2024-04,Gaza-Israel Conflict,Etihad Airways,UAE,Middle East,Flag Carrier,110,2725.7,351.96,12.91,125.78,4.61,1.13,16.4,7.55,84.06,101.78,38000,3458000
+2024-Q3,2024-07,Gaza-Israel Conflict,Etihad Airways,UAE,Middle East,Flag Carrier,110,2549.04,324.98,12.75,206.67,8.11,1.08,29.5,4.24,80.4,93.98,38000,3458000
+2024-Q4,2024-10,Gaza-Israel Conflict,Etihad Airways,UAE,Middle East,Flag Carrier,110,2750.04,389.09,14.15,117.02,4.26,1.21,3.3,3.21,94.78,112.52,38000,3458000
+2025-Q1,2025-01,Pre-Iran Escalation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2565.4,351.13,13.69,154.4,6.02,1.17,47.0,21.16,85.13,101.54,38000,3458000
+2025-Q2,2025-04,Pre-Iran Escalation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2575.93,416.45,16.17,348.33,13.52,1.13,61.9,87.16,101.77,120.43,38000,3458000
+2025-Q3,2025-07,Pre-Iran Escalation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2656.07,388.06,14.61,126.88,4.78,1.14,63.7,61.03,93.24,112.22,38000,3458000
+2025-Q4,2025-10,Pre-Iran Escalation,Etihad Airways,UAE,Middle East,Flag Carrier,110,2493.5,386.15,15.49,297.41,11.93,0.98,29.4,27.34,99.34,111.67,38000,3458000
+2026-Q1,2026-01,US-Iran War Conflict,Etihad Airways,UAE,Middle East,Flag Carrier,110,1328.97,507.63,38.2,-241.72,-18.19,0.59,2.9,9.29,130.88,146.8,38000,3458000
+2019-Q1,2019-01,Pre-Pandemic Baseline,flydubai,UAE,Middle East,Low Cost,87,942.04,122.16,12.97,97.01,10.3,0.91,13.6,0.0,63.0,74.58,18000,1638000
+2019-Q2,2019-04,Pre-Pandemic Baseline,flydubai,UAE,Middle East,Low Cost,87,923.88,120.13,13.0,55.77,6.04,0.78,27.3,0.0,64.79,73.34,18000,1638000
+2019-Q3,2019-07,Pre-Pandemic Baseline,flydubai,UAE,Middle East,Low Cost,87,1025.84,116.48,11.35,94.75,9.24,0.87,31.1,0.0,60.46,71.11,18000,1638000
+2019-Q4,2019-10,Pre-Pandemic Baseline,flydubai,UAE,Middle East,Low Cost,87,922.04,126.08,13.67,39.65,4.3,0.84,12.4,0.0,65.66,76.97,18000,1638000
+2020-Q1,2020-01,Pre-Pandemic Baseline,flydubai,UAE,Middle East,Low Cost,87,951.81,123.47,12.97,60.07,6.31,0.92,16.8,0.0,66.66,75.38,18000,1638000
+2020-Q2,2020-04,COVID-19 Collapse,flydubai,UAE,Middle East,Low Cost,87,227.82,38.8,17.03,-89.15,-39.13,0.19,22.9,0.0,20.57,23.69,18000,1638000
+2020-Q3,2020-07,COVID-19 Collapse,flydubai,UAE,Middle East,Low Cost,87,307.56,82.6,26.86,-111.36,-36.21,0.29,6.1,0.0,44.05,50.43,18000,1638000
+2020-Q4,2020-10,COVID-19 Collapse,flydubai,UAE,Middle East,Low Cost,87,187.25,74.79,39.94,-78.11,-41.71,0.16,36.3,0.0,39.95,45.66,18000,1638000
+2021-Q1,2021-01,COVID-19 Collapse,flydubai,UAE,Middle East,Low Cost,87,213.47,140.49,65.81,-63.86,-29.92,0.2,17.6,0.0,75.49,85.77,18000,1638000
+2021-Q2,2021-04,COVID-19 Collapse,flydubai,UAE,Middle East,Low Cost,87,211.99,148.93,70.25,-90.73,-42.8,0.18,31.1,0.47,76.83,90.92,18000,1638000
+2021-Q3,2021-07,Recovery & Surge,flydubai,UAE,Middle East,Low Cost,87,777.98,147.29,18.93,34.2,4.4,0.62,9.1,0.0,78.97,89.92,18000,1638000
+2021-Q4,2021-10,Recovery & Surge,flydubai,UAE,Middle East,Low Cost,87,756.39,170.76,22.58,54.85,7.25,0.7,12.9,3.49,86.82,104.25,18000,1638000
+2022-Q1,2022-01,Recovery & Surge,flydubai,UAE,Middle East,Low Cost,87,637.94,133.4,20.91,40.84,6.4,0.52,10.3,0.0,72.01,81.44,18000,1638000
+2022-Q2,2022-04,Ukraine War Shock,flydubai,UAE,Middle East,Low Cost,87,968.37,215.61,22.27,34.09,3.52,0.81,10.0,9.97,109.53,131.63,18000,1638000
+2022-Q3,2022-07,Ukraine War Shock,flydubai,UAE,Middle East,Low Cost,87,1034.42,154.77,14.96,31.03,3.0,1.0,16.4,1.27,80.69,94.49,18000,1638000
+2022-Q4,2022-10,Ukraine War Shock,flydubai,UAE,Middle East,Low Cost,87,1011.1,172.91,17.1,97.07,9.6,0.9,32.0,9.57,93.25,105.56,18000,1638000
+2023-Q1,2023-01,Stabilisation,flydubai,UAE,Middle East,Low Cost,87,935.35,159.1,17.01,73.23,7.83,0.84,34.8,4.39,84.29,97.13,18000,1638000
+2023-Q2,2023-04,Stabilisation,flydubai,UAE,Middle East,Low Cost,87,979.16,167.03,17.06,41.33,4.22,0.84,35.3,7.84,88.18,101.97,18000,1638000
+2023-Q3,2023-07,Stabilisation,flydubai,UAE,Middle East,Low Cost,87,932.17,159.74,17.14,71.58,7.68,0.81,10.4,1.39,85.16,97.52,18000,1638000
+2023-Q4,2023-10,Gaza-Israel Conflict,flydubai,UAE,Middle East,Low Cost,87,945.7,147.35,15.58,115.13,12.17,0.9,25.3,0.0,78.33,89.96,18000,1638000
+2024-Q1,2024-01,Gaza-Israel Conflict,flydubai,UAE,Middle East,Low Cost,87,986.32,162.19,16.44,92.18,9.35,0.8,29.4,4.78,84.61,99.02,18000,1638000
+2024-Q2,2024-04,Gaza-Israel Conflict,flydubai,UAE,Middle East,Low Cost,87,1025.57,166.72,16.26,64.39,6.28,1.0,39.9,8.71,84.06,101.78,18000,1638000
+2024-Q3,2024-07,Gaza-Israel Conflict,flydubai,UAE,Middle East,Low Cost,87,919.98,153.94,16.73,122.0,13.26,0.85,21.3,1.45,80.4,93.98,18000,1638000
+2024-Q4,2024-10,Gaza-Israel Conflict,flydubai,UAE,Middle East,Low Cost,87,945.07,184.31,19.5,97.32,10.3,0.9,6.2,2.86,94.78,112.52,18000,1638000
+2025-Q1,2025-01,Pre-Iran Escalation,flydubai,UAE,Middle East,Low Cost,87,968.63,166.32,17.17,101.73,10.5,0.78,36.1,7.7,85.13,101.54,18000,1638000
+2025-Q2,2025-04,Pre-Iran Escalation,flydubai,UAE,Middle East,Low Cost,87,1020.05,197.26,19.34,103.28,10.12,0.84,37.6,25.08,101.77,120.43,18000,1638000
+2025-Q3,2025-07,Pre-Iran Escalation,flydubai,UAE,Middle East,Low Cost,87,1001.92,183.82,18.35,42.94,4.29,0.9,9.0,4.08,93.24,112.22,18000,1638000
+2025-Q4,2025-10,Pre-Iran Escalation,flydubai,UAE,Middle East,Low Cost,87,919.92,182.92,19.88,54.51,5.93,0.8,35.7,15.72,99.34,111.67,18000,1638000
+2026-Q1,2026-01,US-Iran War Conflict,flydubai,UAE,Middle East,Low Cost,87,482.38,240.46,49.85,-54.1,-11.22,0.47,27.4,41.58,130.88,146.8,18000,1638000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Air Arabia,UAE,Middle East,Low Cost,65,422.41,81.44,19.28,54.99,13.02,0.69,28.1,0.0,63.0,74.58,12000,1092000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Air Arabia,UAE,Middle East,Low Cost,65,380.93,80.09,21.02,35.0,9.19,0.6,23.3,0.0,64.79,73.34,12000,1092000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Air Arabia,UAE,Middle East,Low Cost,65,402.49,77.65,19.29,52.59,13.07,0.68,9.4,0.0,60.46,71.11,12000,1092000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Air Arabia,UAE,Middle East,Low Cost,65,407.71,84.05,20.62,55.43,13.6,0.66,33.1,0.0,65.66,76.97,12000,1092000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Air Arabia,UAE,Middle East,Low Cost,65,399.41,82.31,20.61,31.04,7.77,0.61,5.8,0.0,66.66,75.38,12000,1092000
+2020-Q2,2020-04,COVID-19 Collapse,Air Arabia,UAE,Middle East,Low Cost,65,133.99,25.87,19.31,-48.58,-36.26,0.21,31.6,0.0,20.57,23.69,12000,1092000
+2020-Q3,2020-07,COVID-19 Collapse,Air Arabia,UAE,Middle East,Low Cost,65,102.15,55.07,53.91,-36.72,-35.95,0.17,33.9,0.0,44.05,50.43,12000,1092000
+2020-Q4,2020-10,COVID-19 Collapse,Air Arabia,UAE,Middle East,Low Cost,65,138.14,49.86,36.09,-40.03,-28.97,0.23,16.4,0.0,39.95,45.66,12000,1092000
+2021-Q1,2021-01,COVID-19 Collapse,Air Arabia,UAE,Middle East,Low Cost,65,67.97,93.66,137.8,-28.79,-42.35,0.11,9.0,0.0,75.49,85.77,12000,1092000
+2021-Q2,2021-04,COVID-19 Collapse,Air Arabia,UAE,Middle East,Low Cost,65,132.53,99.28,74.91,-36.32,-27.4,0.2,14.8,0.15,76.83,90.92,12000,1092000
+2021-Q3,2021-07,Recovery & Surge,Air Arabia,UAE,Middle East,Low Cost,65,316.8,98.19,31.0,18.1,5.71,0.53,26.0,0.0,78.97,89.92,12000,1092000
+2021-Q4,2021-10,Recovery & Surge,Air Arabia,UAE,Middle East,Low Cost,65,272.42,113.84,41.79,15.36,5.64,0.45,34.2,6.16,86.82,104.25,12000,1092000
+2022-Q1,2022-01,Recovery & Surge,Air Arabia,UAE,Middle East,Low Cost,65,272.61,88.93,32.62,10.62,3.9,0.47,14.0,0.0,72.01,81.44,12000,1092000
+2022-Q2,2022-04,Ukraine War Shock,Air Arabia,UAE,Middle East,Low Cost,65,417.34,143.74,34.44,16.99,4.07,0.63,22.0,14.63,109.53,131.63,12000,1092000
+2022-Q3,2022-07,Ukraine War Shock,Air Arabia,UAE,Middle East,Low Cost,65,431.6,103.18,23.91,9.97,2.31,0.75,32.0,1.65,80.69,94.49,12000,1092000
+2022-Q4,2022-10,Ukraine War Shock,Air Arabia,UAE,Middle East,Low Cost,65,388.78,115.27,29.65,18.79,4.83,0.61,35.6,7.09,93.25,105.56,12000,1092000
+2023-Q1,2023-01,Stabilisation,Air Arabia,UAE,Middle East,Low Cost,65,380.93,106.07,27.84,36.12,9.48,0.55,9.0,0.76,84.29,97.13,12000,1092000
+2023-Q2,2023-04,Stabilisation,Air Arabia,UAE,Middle East,Low Cost,65,415.91,111.35,26.77,26.38,6.34,0.6,10.7,1.58,88.18,101.97,12000,1092000
+2023-Q3,2023-07,Stabilisation,Air Arabia,UAE,Middle East,Low Cost,65,390.85,106.49,27.25,45.72,11.7,0.63,30.7,2.73,85.16,97.52,12000,1092000
+2023-Q4,2023-10,Gaza-Israel Conflict,Air Arabia,UAE,Middle East,Low Cost,65,399.23,98.24,24.61,20.49,5.13,0.67,9.9,0.0,78.33,89.96,12000,1092000
+2024-Q1,2024-01,Gaza-Israel Conflict,Air Arabia,UAE,Middle East,Low Cost,65,399.9,108.13,27.04,26.48,6.62,0.6,26.1,2.83,84.61,99.02,12000,1092000
+2024-Q2,2024-04,Gaza-Israel Conflict,Air Arabia,UAE,Middle East,Low Cost,65,388.55,111.14,28.61,32.87,8.46,0.63,35.4,5.15,84.06,101.78,12000,1092000
+2024-Q3,2024-07,Gaza-Israel Conflict,Air Arabia,UAE,Middle East,Low Cost,65,399.3,102.63,25.7,28.7,7.19,0.61,22.5,1.02,80.4,93.98,12000,1092000
+2024-Q4,2024-10,Gaza-Israel Conflict,Air Arabia,UAE,Middle East,Low Cost,65,396.28,122.87,31.01,25.78,6.5,0.61,32.2,9.9,94.78,112.52,12000,1092000
+2025-Q1,2025-01,Pre-Iran Escalation,Air Arabia,UAE,Middle East,Low Cost,65,393.15,110.88,28.2,48.93,12.45,0.59,26.1,3.71,85.13,101.54,12000,1092000
+2025-Q2,2025-04,Pre-Iran Escalation,Air Arabia,UAE,Middle East,Low Cost,65,430.49,131.51,30.55,58.19,13.52,0.67,7.4,3.29,101.77,120.43,12000,1092000
+2025-Q3,2025-07,Pre-Iran Escalation,Air Arabia,UAE,Middle East,Low Cost,65,426.94,122.54,28.7,22.5,5.27,0.73,30.6,9.26,93.24,112.22,12000,1092000
+2025-Q4,2025-10,Pre-Iran Escalation,Air Arabia,UAE,Middle East,Low Cost,65,428.58,121.94,28.45,45.66,10.65,0.74,21.3,6.25,99.34,111.67,12000,1092000
+2026-Q1,2026-01,US-Iran War Conflict,Air Arabia,UAE,Middle East,Low Cost,65,232.96,160.31,68.81,-39.92,-17.13,0.36,19.0,19.22,130.88,146.8,12000,1092000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Gulf Air,Bahrain,Middle East,Flag Carrier,32,239.64,44.11,18.41,23.77,9.92,0.35,18.7,0.0,63.0,74.58,6500,591500
+2019-Q2,2019-04,Pre-Pandemic Baseline,Gulf Air,Bahrain,Middle East,Flag Carrier,32,242.7,43.38,17.87,16.52,6.81,0.31,50.6,0.0,64.79,73.34,6500,591500
+2019-Q3,2019-07,Pre-Pandemic Baseline,Gulf Air,Bahrain,Middle East,Flag Carrier,32,238.29,42.06,17.65,18.92,7.94,0.33,26.9,0.0,60.46,71.11,6500,591500
+2019-Q4,2019-10,Pre-Pandemic Baseline,Gulf Air,Bahrain,Middle East,Flag Carrier,32,222.35,45.53,20.48,26.98,12.13,0.32,31.5,0.0,65.66,76.97,6500,591500
+2020-Q1,2020-01,Pre-Pandemic Baseline,Gulf Air,Bahrain,Middle East,Flag Carrier,32,227.07,44.59,19.64,13.17,5.8,0.32,60.0,0.0,66.66,75.38,6500,591500
+2020-Q2,2020-04,COVID-19 Collapse,Gulf Air,Bahrain,Middle East,Flag Carrier,32,66.1,14.01,21.2,-21.38,-32.34,0.08,60.5,0.0,20.57,23.69,6500,591500
+2020-Q3,2020-07,COVID-19 Collapse,Gulf Air,Bahrain,Middle East,Flag Carrier,32,47.61,29.83,62.65,-17.86,-37.5,0.07,27.9,0.0,44.05,50.43,6500,591500
+2020-Q4,2020-10,COVID-19 Collapse,Gulf Air,Bahrain,Middle East,Flag Carrier,32,77.06,27.01,35.05,-31.5,-40.87,0.11,6.9,0.0,39.95,45.66,6500,591500
+2021-Q1,2021-01,COVID-19 Collapse,Gulf Air,Bahrain,Middle East,Flag Carrier,32,46.21,50.73,109.79,-12.45,-26.95,0.07,30.5,0.0,75.49,85.77,6500,591500
+2021-Q2,2021-04,COVID-19 Collapse,Gulf Air,Bahrain,Middle East,Flag Carrier,32,69.27,53.78,77.64,-14.98,-21.62,0.1,22.3,0.12,76.83,90.92,6500,591500
+2021-Q3,2021-07,Recovery & Surge,Gulf Air,Bahrain,Middle East,Flag Carrier,32,160.3,53.19,33.18,7.12,4.44,0.23,25.5,0.0,78.97,89.92,6500,591500
+2021-Q4,2021-10,Recovery & Surge,Gulf Air,Bahrain,Middle East,Flag Carrier,32,156.54,61.66,39.39,4.76,3.04,0.21,8.6,0.84,86.82,104.25,6500,591500
+2022-Q1,2022-01,Recovery & Surge,Gulf Air,Bahrain,Middle East,Flag Carrier,32,175.02,48.17,27.52,7.12,4.07,0.23,54.1,0.0,72.01,81.44,6500,591500
+2022-Q2,2022-04,Ukraine War Shock,Gulf Air,Bahrain,Middle East,Flag Carrier,32,205.82,77.86,37.83,12.28,5.97,0.31,12.4,4.47,109.53,131.63,6500,591500
+2022-Q3,2022-07,Ukraine War Shock,Gulf Air,Bahrain,Middle East,Flag Carrier,32,210.25,55.89,26.58,10.57,5.03,0.28,14.4,0.4,80.69,94.49,6500,591500
+2022-Q4,2022-10,Ukraine War Shock,Gulf Air,Bahrain,Middle East,Flag Carrier,32,245.24,62.44,25.46,11.67,4.76,0.31,58.5,6.32,93.25,105.56,6500,591500
+2023-Q1,2023-01,Stabilisation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,226.86,57.45,25.32,25.77,11.36,0.3,60.8,2.77,84.29,97.13,6500,591500
+2023-Q2,2023-04,Stabilisation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,222.17,60.32,27.15,23.61,10.63,0.33,15.5,1.24,88.18,101.97,6500,591500
+2023-Q3,2023-07,Stabilisation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,237.19,57.68,24.32,28.28,11.92,0.36,60.0,2.89,85.16,97.52,6500,591500
+2023-Q4,2023-10,Gaza-Israel Conflict,Gulf Air,Bahrain,Middle East,Flag Carrier,32,225.12,53.21,23.64,22.3,9.91,0.34,0.3,0.0,78.33,89.96,6500,591500
+2024-Q1,2024-01,Gaza-Israel Conflict,Gulf Air,Bahrain,Middle East,Flag Carrier,32,232.1,58.57,25.23,14.28,6.15,0.34,51.8,3.04,84.61,99.02,6500,591500
+2024-Q2,2024-04,Gaza-Israel Conflict,Gulf Air,Bahrain,Middle East,Flag Carrier,32,234.6,60.2,25.66,32.75,13.96,0.32,36.5,2.88,84.06,101.78,6500,591500
+2024-Q3,2024-07,Gaza-Israel Conflict,Gulf Air,Bahrain,Middle East,Flag Carrier,32,225.71,55.59,24.63,31.01,13.74,0.34,64.1,1.58,80.4,93.98,6500,591500
+2024-Q4,2024-10,Gaza-Israel Conflict,Gulf Air,Bahrain,Middle East,Flag Carrier,32,242.56,66.56,27.44,31.42,12.95,0.36,7.8,1.3,94.78,112.52,6500,591500
+2025-Q1,2025-01,Pre-Iran Escalation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,218.83,60.06,27.45,28.12,12.85,0.32,56.9,4.38,85.13,101.54,6500,591500
+2025-Q2,2025-04,Pre-Iran Escalation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,236.27,71.23,30.15,12.75,5.4,0.35,50.1,12.07,101.77,120.43,6500,591500
+2025-Q3,2025-07,Pre-Iran Escalation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,230.45,66.38,28.8,21.49,9.32,0.32,25.4,4.16,93.24,112.22,6500,591500
+2025-Q4,2025-10,Pre-Iran Escalation,Gulf Air,Bahrain,Middle East,Flag Carrier,32,237.24,66.05,27.84,31.06,13.09,0.31,2.5,0.4,99.34,111.67,6500,591500
+2026-Q1,2026-01,US-Iran War Conflict,Gulf Air,Bahrain,Middle East,Flag Carrier,32,123.91,86.83,70.07,-12.21,-9.85,0.18,22.7,12.44,130.88,146.8,6500,591500
+2019-Q1,2019-01,Pre-Pandemic Baseline,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,169.72,35.29,20.79,21.36,12.59,0.25,15.7,0.0,63.0,74.58,5200,473200
+2019-Q2,2019-04,Pre-Pandemic Baseline,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,168.36,34.7,20.61,22.06,13.1,0.25,11.2,0.0,64.79,73.34,5200,473200
+2019-Q3,2019-07,Pre-Pandemic Baseline,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,187.95,33.65,17.9,13.82,7.36,0.31,15.0,0.0,60.46,71.11,5200,473200
+2019-Q4,2019-10,Pre-Pandemic Baseline,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,182.79,36.42,19.93,11.55,6.32,0.29,28.7,0.0,65.66,76.97,5200,473200
+2020-Q1,2020-01,Pre-Pandemic Baseline,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,184.42,35.67,19.34,20.84,11.3,0.31,24.5,0.0,66.66,75.38,5200,473200
+2020-Q2,2020-04,COVID-19 Collapse,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,52.65,11.21,21.29,-10.94,-20.78,0.08,18.9,0.0,20.57,23.69,5200,473200
+2020-Q3,2020-07,COVID-19 Collapse,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,53.17,23.86,44.88,-18.0,-33.86,0.08,35.5,0.0,44.05,50.43,5200,473200
+2020-Q4,2020-10,COVID-19 Collapse,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,58.99,21.61,36.62,-25.31,-42.9,0.09,7.2,0.0,39.95,45.66,5200,473200
+2021-Q1,2021-01,COVID-19 Collapse,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,57.18,40.59,70.99,-23.77,-41.58,0.08,62.6,0.0,75.49,85.77,5200,473200
+2021-Q2,2021-04,COVID-19 Collapse,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,45.97,43.02,93.6,-11.19,-24.35,0.07,28.3,0.12,76.83,90.92,5200,473200
+2021-Q3,2021-07,Recovery & Surge,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,145.66,42.55,29.21,11.46,7.87,0.23,59.7,0.0,78.97,89.92,5200,473200
+2021-Q4,2021-10,Recovery & Surge,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,143.95,49.33,34.27,2.98,2.07,0.24,13.7,1.07,86.82,104.25,5200,473200
+2022-Q1,2022-01,Recovery & Surge,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,144.72,38.54,26.63,-1.42,-0.98,0.2,51.2,0.0,72.01,81.44,5200,473200
+2022-Q2,2022-04,Ukraine War Shock,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,190.05,62.29,32.77,7.1,3.73,0.3,48.7,14.03,109.53,131.63,5200,473200
+2022-Q3,2022-07,Ukraine War Shock,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,169.11,44.71,26.44,5.37,3.18,0.26,29.7,0.66,80.69,94.49,5200,473200
+2022-Q4,2022-10,Ukraine War Shock,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,183.48,49.95,27.22,6.59,3.59,0.3,32.6,2.82,93.25,105.56,5200,473200
+2023-Q1,2023-01,Stabilisation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,186.81,45.96,24.6,18.04,9.66,0.29,18.6,0.68,84.29,97.13,5200,473200
+2023-Q2,2023-04,Stabilisation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,168.67,48.25,28.61,13.02,7.72,0.26,36.9,2.37,88.18,101.97,5200,473200
+2023-Q3,2023-07,Stabilisation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,185.81,46.15,24.84,16.05,8.64,0.28,56.8,2.19,85.16,97.52,5200,473200
+2023-Q4,2023-10,Gaza-Israel Conflict,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,182.95,42.57,23.27,12.93,7.07,0.27,18.9,0.0,78.33,89.96,5200,473200
+2024-Q1,2024-01,Gaza-Israel Conflict,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,169.06,46.86,27.72,22.04,13.03,0.27,56.1,2.63,84.61,99.02,5200,473200
+2024-Q2,2024-04,Gaza-Israel Conflict,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,184.91,48.16,26.05,10.23,5.53,0.28,63.2,3.98,84.06,101.78,5200,473200
+2024-Q3,2024-07,Gaza-Israel Conflict,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,171.57,44.47,25.92,7.72,4.5,0.26,33.2,0.65,80.4,93.98,5200,473200
+2024-Q4,2024-10,Gaza-Israel Conflict,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,167.52,53.24,31.78,13.85,8.27,0.25,13.8,1.84,94.78,112.52,5200,473200
+2025-Q1,2025-01,Pre-Iran Escalation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,172.25,48.05,27.89,8.71,5.05,0.24,38.7,2.38,85.13,101.54,5200,473200
+2025-Q2,2025-04,Pre-Iran Escalation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,187.81,56.99,30.34,22.63,12.05,0.31,47.8,9.21,101.77,120.43,5200,473200
+2025-Q3,2025-07,Pre-Iran Escalation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,188.0,53.1,28.25,25.39,13.51,0.31,46.5,6.1,93.24,112.22,5200,473200
+2025-Q4,2025-10,Pre-Iran Escalation,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,173.2,52.84,30.51,8.51,4.91,0.25,47.9,6.09,99.34,111.67,5200,473200
+2026-Q1,2026-01,US-Iran War Conflict,Kuwait Airways,Kuwait,Middle East,Flag Carrier,28,88.74,69.47,78.28,-7.7,-8.67,0.13,12.5,5.48,130.88,146.8,5200,473200
+2019-Q1,2019-01,Pre-Pandemic Baseline,Oman Air,Oman,Middle East,Flag Carrier,35,200.6,40.72,20.3,22.13,11.03,0.33,11.3,0.0,63.0,74.58,6000,546000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Oman Air,Oman,Middle East,Flag Carrier,35,209.18,40.04,19.14,26.79,12.81,0.36,34.1,0.0,64.79,73.34,6000,546000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Oman Air,Oman,Middle East,Flag Carrier,35,209.63,38.83,18.52,23.74,11.33,0.32,18.3,0.0,60.46,71.11,6000,546000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Oman Air,Oman,Middle East,Flag Carrier,35,214.23,42.03,19.62,29.14,13.6,0.36,36.4,0.0,65.66,76.97,6000,546000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Oman Air,Oman,Middle East,Flag Carrier,35,190.02,41.16,21.66,20.38,10.72,0.3,8.3,0.0,66.66,75.38,6000,546000
+2020-Q2,2020-04,COVID-19 Collapse,Oman Air,Oman,Middle East,Flag Carrier,35,42.19,12.93,30.66,-11.97,-28.38,0.07,22.7,0.0,20.57,23.69,6000,546000
+2020-Q3,2020-07,COVID-19 Collapse,Oman Air,Oman,Middle East,Flag Carrier,35,59.07,27.53,46.61,-14.57,-24.66,0.11,28.9,0.0,44.05,50.43,6000,546000
+2020-Q4,2020-10,COVID-19 Collapse,Oman Air,Oman,Middle East,Flag Carrier,35,58.71,24.93,42.46,-13.43,-22.87,0.11,32.0,0.0,39.95,45.66,6000,546000
+2021-Q1,2021-01,COVID-19 Collapse,Oman Air,Oman,Middle East,Flag Carrier,35,44.21,46.83,105.92,-9.95,-22.5,0.07,51.8,0.0,75.49,85.77,6000,546000
+2021-Q2,2021-04,COVID-19 Collapse,Oman Air,Oman,Middle East,Flag Carrier,35,66.35,49.64,74.82,-17.59,-26.51,0.12,3.3,0.02,76.83,90.92,6000,546000
+2021-Q3,2021-07,Recovery & Surge,Oman Air,Oman,Middle East,Flag Carrier,35,138.14,49.1,35.54,5.06,3.67,0.25,4.1,0.0,78.97,89.92,6000,546000
+2021-Q4,2021-10,Recovery & Surge,Oman Air,Oman,Middle East,Flag Carrier,35,130.76,56.92,43.53,-1.24,-0.95,0.23,33.3,3.0,86.82,104.25,6000,546000
+2022-Q1,2022-01,Recovery & Surge,Oman Air,Oman,Middle East,Flag Carrier,35,130.33,44.47,34.12,-3.95,-3.03,0.23,19.3,0.0,72.01,81.44,6000,546000
+2022-Q2,2022-04,Ukraine War Shock,Oman Air,Oman,Middle East,Flag Carrier,35,184.69,71.87,38.91,4.45,2.41,0.34,30.7,10.21,109.53,131.63,6000,546000
+2022-Q3,2022-07,Ukraine War Shock,Oman Air,Oman,Middle East,Flag Carrier,35,200.15,51.59,25.78,4.99,2.49,0.34,42.0,1.08,80.69,94.49,6000,546000
+2022-Q4,2022-10,Ukraine War Shock,Oman Air,Oman,Middle East,Flag Carrier,35,184.91,57.64,31.17,17.05,9.22,0.33,52.1,5.19,93.25,105.56,6000,546000
+2023-Q1,2023-01,Stabilisation,Oman Air,Oman,Middle East,Flag Carrier,35,203.95,53.03,26.0,14.97,7.34,0.36,14.6,0.61,84.29,97.13,6000,546000
+2023-Q2,2023-04,Stabilisation,Oman Air,Oman,Middle East,Flag Carrier,35,193.56,55.68,28.76,18.16,9.38,0.33,9.8,0.73,88.18,101.97,6000,546000
+2023-Q3,2023-07,Stabilisation,Oman Air,Oman,Middle East,Flag Carrier,35,203.79,53.25,26.13,19.29,9.46,0.37,49.3,2.19,85.16,97.52,6000,546000
+2023-Q4,2023-10,Gaza-Israel Conflict,Oman Air,Oman,Middle East,Flag Carrier,35,195.66,49.12,25.1,23.83,12.18,0.36,46.6,0.0,78.33,89.96,6000,546000
+2024-Q1,2024-01,Gaza-Israel Conflict,Oman Air,Oman,Middle East,Flag Carrier,35,210.46,54.06,25.69,14.03,6.66,0.39,11.5,0.62,84.61,99.02,6000,546000
+2024-Q2,2024-04,Gaza-Israel Conflict,Oman Air,Oman,Middle East,Flag Carrier,35,209.52,55.57,26.52,16.66,7.95,0.35,18.5,1.35,84.06,101.78,6000,546000
+2024-Q3,2024-07,Gaza-Israel Conflict,Oman Air,Oman,Middle East,Flag Carrier,35,201.47,51.31,25.47,23.99,11.91,0.37,27.1,0.61,80.4,93.98,6000,546000
+2024-Q4,2024-10,Gaza-Israel Conflict,Oman Air,Oman,Middle East,Flag Carrier,35,206.94,61.44,29.69,24.59,11.88,0.32,62.4,9.59,94.78,112.52,6000,546000
+2025-Q1,2025-01,Pre-Iran Escalation,Oman Air,Oman,Middle East,Flag Carrier,35,195.5,55.44,28.36,25.71,13.15,0.36,6.5,0.46,85.13,101.54,6000,546000
+2025-Q2,2025-04,Pre-Iran Escalation,Oman Air,Oman,Middle East,Flag Carrier,35,213.21,65.75,30.84,22.19,10.41,0.38,7.1,1.58,101.77,120.43,6000,546000
+2025-Q3,2025-07,Pre-Iran Escalation,Oman Air,Oman,Middle East,Flag Carrier,35,211.69,61.27,28.94,21.72,10.26,0.36,36.4,5.51,93.24,112.22,6000,546000
+2025-Q4,2025-10,Pre-Iran Escalation,Oman Air,Oman,Middle East,Flag Carrier,35,209.36,60.97,29.12,14.61,6.98,0.39,20.0,2.94,99.34,111.67,6000,546000
+2026-Q1,2026-01,US-Iran War Conflict,Oman Air,Oman,Middle East,Flag Carrier,35,143.85,80.15,55.72,-35.62,-24.76,0.26,55.4,28.02,130.88,146.8,6000,546000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1255.99,203.6,16.21,142.8,11.37,1.35,31.2,0.0,63.0,74.58,30000,2730000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1246.59,200.22,16.06,76.36,6.13,1.5,27.2,0.0,64.79,73.34,30000,2730000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1239.4,194.13,15.66,113.41,9.15,1.5,21.6,0.0,60.46,71.11,30000,2730000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1258.87,210.13,16.69,131.37,10.44,1.51,55.8,0.0,65.66,76.97,30000,2730000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1346.03,205.79,15.29,78.63,5.84,1.57,53.5,0.0,66.66,75.38,30000,2730000
+2020-Q2,2020-04,COVID-19 Collapse,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,415.88,64.67,15.55,-145.15,-34.9,0.45,10.1,0.0,20.57,23.69,30000,2730000
+2020-Q3,2020-07,COVID-19 Collapse,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,395.9,137.67,34.78,-105.19,-26.57,0.4,1.3,0.0,44.05,50.43,30000,2730000
+2020-Q4,2020-10,COVID-19 Collapse,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,442.45,124.65,28.17,-197.19,-44.57,0.5,29.5,0.0,39.95,45.66,30000,2730000
+2021-Q1,2021-01,COVID-19 Collapse,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,397.13,234.15,58.96,-170.0,-42.81,0.45,40.0,0.0,75.49,85.77,30000,2730000
+2021-Q2,2021-04,COVID-19 Collapse,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,416.93,248.21,59.53,-133.57,-32.04,0.48,28.4,0.72,76.83,90.92,30000,2730000
+2021-Q3,2021-07,Recovery & Surge,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1100.83,245.48,22.3,25.01,2.27,1.28,6.0,0.0,78.97,89.92,30000,2730000
+2021-Q4,2021-10,Recovery & Surge,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,965.32,284.6,29.48,-40.18,-4.16,0.99,32.9,14.83,86.82,104.25,30000,2730000
+2022-Q1,2022-01,Recovery & Surge,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,936.6,222.33,23.74,9.16,0.98,1.03,10.4,0.0,72.01,81.44,30000,2730000
+2022-Q2,2022-04,Ukraine War Shock,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1265.12,359.35,28.4,112.4,8.88,1.5,31.9,53.02,109.53,131.63,30000,2730000
+2022-Q3,2022-07,Ukraine War Shock,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1364.78,257.96,18.9,109.57,8.03,1.37,39.7,5.11,80.69,94.49,30000,2730000
+2022-Q4,2022-10,Ukraine War Shock,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1379.18,288.18,20.89,93.12,6.75,1.54,34.5,17.19,93.25,105.56,30000,2730000
+2023-Q1,2023-01,Stabilisation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1320.84,265.16,20.08,155.64,11.78,1.5,14.0,2.94,84.29,97.13,30000,2730000
+2023-Q2,2023-04,Stabilisation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1308.24,278.38,21.28,121.49,9.29,1.42,15.4,5.7,88.18,101.97,30000,2730000
+2023-Q3,2023-07,Stabilisation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1256.08,266.23,21.2,64.98,5.17,1.33,26.2,5.83,85.16,97.52,30000,2730000
+2023-Q4,2023-10,Gaza-Israel Conflict,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1350.41,245.59,18.19,187.02,13.85,1.61,52.9,0.0,78.33,89.96,30000,2730000
+2024-Q1,2024-01,Gaza-Israel Conflict,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1372.52,270.32,19.7,136.71,9.96,1.44,30.7,8.32,84.61,99.02,30000,2730000
+2024-Q2,2024-04,Gaza-Israel Conflict,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1259.09,277.86,22.07,121.68,9.66,1.26,12.3,4.47,84.06,101.78,30000,2730000
+2024-Q3,2024-07,Gaza-Israel Conflict,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1355.38,256.57,18.93,91.74,6.77,1.47,54.1,6.14,80.4,93.98,30000,2730000
+2024-Q4,2024-10,Gaza-Israel Conflict,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1242.53,307.18,24.72,52.53,4.23,1.3,44.5,34.2,94.78,112.52,30000,2730000
+2025-Q1,2025-01,Pre-Iran Escalation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1274.9,277.2,21.74,161.11,12.64,1.37,18.4,6.54,85.13,101.54,30000,2730000
+2025-Q2,2025-04,Pre-Iran Escalation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1274.36,328.77,25.8,124.12,9.74,1.51,26.4,29.35,101.77,120.43,30000,2730000
+2025-Q3,2025-07,Pre-Iran Escalation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1277.68,306.36,23.98,104.88,8.21,1.53,21.7,16.41,93.24,112.22,30000,2730000
+2025-Q4,2025-10,Pre-Iran Escalation,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,1345.82,304.86,22.65,98.21,7.3,1.54,57.3,42.06,99.34,111.67,30000,2730000
+2026-Q1,2026-01,US-Iran War Conflict,Saudia,Saudi Arabia,Middle East,Flag Carrier,148,844.53,400.76,47.45,-51.1,-6.05,0.95,63.4,160.36,130.88,146.8,30000,2730000
+2019-Q1,2019-01,Pre-Pandemic Baseline,flynas,Saudi Arabia,Middle East,Low Cost,43,234.92,54.29,23.11,24.73,10.53,0.46,5.4,0.0,63.0,74.58,8000,728000
+2019-Q2,2019-04,Pre-Pandemic Baseline,flynas,Saudi Arabia,Middle East,Low Cost,43,221.27,53.39,24.13,13.63,6.16,0.38,37.8,0.0,64.79,73.34,8000,728000
+2019-Q3,2019-07,Pre-Pandemic Baseline,flynas,Saudi Arabia,Middle East,Low Cost,43,217.58,51.77,23.79,14.42,6.63,0.39,26.9,0.0,60.46,71.11,8000,728000
+2019-Q4,2019-10,Pre-Pandemic Baseline,flynas,Saudi Arabia,Middle East,Low Cost,43,236.2,56.03,23.72,23.73,10.05,0.46,19.1,0.0,65.66,76.97,8000,728000
+2020-Q1,2020-01,Pre-Pandemic Baseline,flynas,Saudi Arabia,Middle East,Low Cost,43,242.88,54.88,22.59,13.85,5.7,0.44,34.1,0.0,66.66,75.38,8000,728000
+2020-Q2,2020-04,COVID-19 Collapse,flynas,Saudi Arabia,Middle East,Low Cost,43,44.85,17.25,38.45,-11.76,-26.23,0.08,11.2,0.0,20.57,23.69,8000,728000
+2020-Q3,2020-07,COVID-19 Collapse,flynas,Saudi Arabia,Middle East,Low Cost,43,51.9,36.71,70.74,-13.17,-25.38,0.09,23.1,0.0,44.05,50.43,8000,728000
+2020-Q4,2020-10,COVID-19 Collapse,flynas,Saudi Arabia,Middle East,Low Cost,43,67.11,33.24,49.53,-17.59,-26.21,0.12,21.3,0.0,39.95,45.66,8000,728000
+2021-Q1,2021-01,COVID-19 Collapse,flynas,Saudi Arabia,Middle East,Low Cost,43,72.3,62.44,86.36,-28.77,-39.79,0.15,19.7,0.0,75.49,85.77,8000,728000
+2021-Q2,2021-04,COVID-19 Collapse,flynas,Saudi Arabia,Middle East,Low Cost,43,46.15,66.19,143.44,-20.74,-44.94,0.08,31.5,0.21,76.83,90.92,8000,728000
+2021-Q3,2021-07,Recovery & Surge,flynas,Saudi Arabia,Middle East,Low Cost,43,175.47,65.46,37.31,-3.15,-1.8,0.35,34.2,0.0,78.97,89.92,8000,728000
+2021-Q4,2021-10,Recovery & Surge,flynas,Saudi Arabia,Middle East,Low Cost,43,158.37,75.89,47.92,-1.12,-0.71,0.28,27.5,3.3,86.82,104.25,8000,728000
+2022-Q1,2022-01,Recovery & Surge,flynas,Saudi Arabia,Middle East,Low Cost,43,177.8,59.29,33.35,0.26,0.15,0.35,39.7,0.0,72.01,81.44,8000,728000
+2022-Q2,2022-04,Ukraine War Shock,flynas,Saudi Arabia,Middle East,Low Cost,43,230.04,95.83,41.66,16.55,7.19,0.42,5.4,2.39,109.53,131.63,8000,728000
+2022-Q3,2022-07,Ukraine War Shock,flynas,Saudi Arabia,Middle East,Low Cost,43,245.43,68.79,28.03,20.07,8.18,0.47,6.0,0.21,80.69,94.49,8000,728000
+2022-Q4,2022-10,Ukraine War Shock,flynas,Saudi Arabia,Middle East,Low Cost,43,236.66,76.85,32.47,17.42,7.36,0.44,26.8,3.56,93.25,105.56,8000,728000
+2023-Q1,2023-01,Stabilisation,flynas,Saudi Arabia,Middle East,Low Cost,43,240.61,70.71,29.39,9.79,4.07,0.42,36.3,2.03,84.29,97.13,8000,728000
+2023-Q2,2023-04,Stabilisation,flynas,Saudi Arabia,Middle East,Low Cost,43,213.99,74.23,34.69,27.9,13.04,0.36,32.3,3.19,88.18,101.97,8000,728000
+2023-Q3,2023-07,Stabilisation,flynas,Saudi Arabia,Middle East,Low Cost,43,239.81,70.99,29.6,24.28,10.13,0.46,6.8,0.4,85.16,97.52,8000,728000
+2023-Q4,2023-10,Gaza-Israel Conflict,flynas,Saudi Arabia,Middle East,Low Cost,43,219.92,65.49,29.78,28.58,12.99,0.43,7.1,0.0,78.33,89.96,8000,728000
+2024-Q1,2024-01,Gaza-Israel Conflict,flynas,Saudi Arabia,Middle East,Low Cost,43,237.53,72.09,30.35,19.56,8.23,0.45,8.8,0.64,84.61,99.02,8000,728000
+2024-Q2,2024-04,Gaza-Israel Conflict,flynas,Saudi Arabia,Middle East,Low Cost,43,225.41,74.1,32.87,18.82,8.35,0.43,28.0,2.72,84.06,101.78,8000,728000
+2024-Q3,2024-07,Gaza-Israel Conflict,flynas,Saudi Arabia,Middle East,Low Cost,43,229.8,68.42,29.77,9.91,4.31,0.4,10.6,0.32,80.4,93.98,8000,728000
+2024-Q4,2024-10,Gaza-Israel Conflict,flynas,Saudi Arabia,Middle East,Low Cost,43,239.72,81.91,34.17,31.2,13.02,0.47,11.1,2.28,94.78,112.52,8000,728000
+2025-Q1,2025-01,Pre-Iran Escalation,flynas,Saudi Arabia,Middle East,Low Cost,43,238.32,73.92,31.02,14.0,5.88,0.45,30.7,2.91,85.13,101.54,8000,728000
+2025-Q2,2025-04,Pre-Iran Escalation,flynas,Saudi Arabia,Middle East,Low Cost,43,215.26,87.67,40.73,21.48,9.98,0.38,22.4,6.64,101.77,120.43,8000,728000
+2025-Q3,2025-07,Pre-Iran Escalation,flynas,Saudi Arabia,Middle East,Low Cost,43,224.98,81.7,36.31,24.45,10.87,0.42,15.6,3.15,93.24,112.22,8000,728000
+2025-Q4,2025-10,Pre-Iran Escalation,flynas,Saudi Arabia,Middle East,Low Cost,43,240.38,81.3,33.82,32.67,13.59,0.47,25.3,4.95,99.34,111.67,8000,728000
+2026-Q1,2026-01,US-Iran War Conflict,flynas,Saudi Arabia,Middle East,Low Cost,43,162.25,106.87,65.87,-21.04,-12.97,0.28,5.6,3.78,130.88,146.8,8000,728000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4281.91,373.27,8.72,493.48,11.52,1.62,53.6,0.0,63.0,74.58,55000,5005000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4235.9,367.07,8.67,250.05,5.9,1.5,28.3,0.0,64.79,73.34,55000,5005000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4018.71,355.91,8.86,481.9,11.99,1.3,41.0,0.0,60.46,71.11,55000,5005000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4220.53,385.23,9.13,296.96,7.04,1.45,7.6,0.0,65.66,76.97,55000,5005000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3908.61,377.28,9.65,161.43,4.13,1.27,56.4,0.0,66.66,75.38,55000,5005000
+2020-Q2,2020-04,COVID-19 Collapse,Singapore Airlines,Singapore,Asia,Flag Carrier,147,1043.54,118.57,11.36,-439.04,-42.07,0.39,37.0,0.0,20.57,23.69,55000,5005000
+2020-Q3,2020-07,COVID-19 Collapse,Singapore Airlines,Singapore,Asia,Flag Carrier,147,637.87,252.4,39.57,-165.41,-25.93,0.22,34.6,0.0,44.05,50.43,55000,5005000
+2020-Q4,2020-10,COVID-19 Collapse,Singapore Airlines,Singapore,Asia,Flag Carrier,147,1117.85,228.53,20.44,-476.64,-42.64,0.42,16.6,0.0,39.95,45.66,55000,5005000
+2021-Q1,2021-01,COVID-19 Collapse,Singapore Airlines,Singapore,Asia,Flag Carrier,147,1124.9,429.28,38.16,-265.6,-23.61,0.38,40.8,0.0,75.49,85.77,55000,5005000
+2021-Q2,2021-04,COVID-19 Collapse,Singapore Airlines,Singapore,Asia,Flag Carrier,147,1425.88,455.05,31.91,-338.0,-23.71,0.52,28.6,1.33,76.83,90.92,55000,5005000
+2021-Q3,2021-07,Recovery & Surge,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3035.04,450.05,14.83,39.82,1.31,1.1,9.4,0.0,78.97,89.92,55000,5005000
+2021-Q4,2021-10,Recovery & Surge,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3371.04,521.77,15.48,-160.63,-4.76,1.1,31.3,25.86,86.82,104.25,55000,5005000
+2022-Q1,2022-01,Recovery & Surge,Singapore Airlines,Singapore,Asia,Flag Carrier,147,2871.74,407.61,14.19,-7.11,-0.25,0.97,17.5,0.0,72.01,81.44,55000,5005000
+2022-Q2,2022-04,Ukraine War Shock,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4001.83,658.81,16.46,241.8,6.04,1.39,52.8,160.9,109.53,131.63,55000,5005000
+2022-Q3,2022-07,Ukraine War Shock,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3942.68,472.92,11.99,167.77,4.26,1.37,3.1,0.73,80.69,94.49,55000,5005000
+2022-Q4,2022-10,Ukraine War Shock,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3781.68,528.33,13.97,318.6,8.42,1.31,4.3,3.93,93.25,105.56,55000,5005000
+2023-Q1,2023-01,Stabilisation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4129.72,486.14,11.77,329.66,7.98,1.36,24.2,9.32,84.29,97.13,55000,5005000
+2023-Q2,2023-04,Stabilisation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3995.39,510.36,12.77,339.23,8.49,1.36,39.5,26.81,88.18,101.97,55000,5005000
+2023-Q3,2023-07,Stabilisation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4397.14,488.09,11.1,257.44,5.85,1.5,36.5,14.89,85.16,97.52,55000,5005000
+2023-Q4,2023-10,Gaza-Israel Conflict,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4186.55,450.25,10.75,444.34,10.61,1.39,41.2,0.0,78.33,89.96,55000,5005000
+2024-Q1,2024-01,Gaza-Israel Conflict,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4002.22,495.6,12.38,210.3,5.25,1.48,30.8,15.3,84.61,99.02,55000,5005000
+2024-Q2,2024-04,Gaza-Israel Conflict,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4106.75,509.41,12.4,545.59,13.29,1.49,44.0,29.34,84.06,101.78,55000,5005000
+2024-Q3,2024-07,Gaza-Israel Conflict,Singapore Airlines,Singapore,Asia,Flag Carrier,147,3998.54,470.37,11.76,243.61,6.09,1.39,42.4,8.82,80.4,93.98,55000,5005000
+2024-Q4,2024-10,Gaza-Israel Conflict,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4105.68,563.16,13.72,190.58,4.64,1.48,50.3,70.88,94.78,112.52,55000,5005000
+2025-Q1,2025-01,Pre-Iran Escalation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4398.31,508.21,11.55,355.72,8.09,1.46,60.2,39.23,85.13,101.54,55000,5005000
+2025-Q2,2025-04,Pre-Iran Escalation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4276.17,602.75,14.1,198.41,4.64,1.51,1.9,3.87,101.77,120.43,55000,5005000
+2025-Q3,2025-07,Pre-Iran Escalation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4015.74,561.66,13.99,189.12,4.71,1.31,31.8,44.1,93.24,112.22,55000,5005000
+2025-Q4,2025-10,Pre-Iran Escalation,Singapore Airlines,Singapore,Asia,Flag Carrier,147,4054.3,558.91,13.79,197.85,4.88,1.41,46.1,62.04,99.34,111.67,55000,5005000
+2026-Q1,2026-01,US-Iran War Conflict,Singapore Airlines,Singapore,Asia,Flag Carrier,147,2913.56,734.73,25.22,-214.2,-7.35,1.04,33.8,156.73,130.88,146.8,55000,5005000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2804.26,325.77,11.62,222.46,7.93,2.16,7.5,0.0,63.0,74.58,48000,4368000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2688.84,320.35,11.91,190.59,7.09,2.21,18.7,0.0,64.79,73.34,48000,4368000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2955.66,310.61,10.51,230.63,7.8,2.42,28.1,0.0,60.46,71.11,48000,4368000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2841.21,336.2,11.83,184.72,6.5,2.27,7.2,0.0,65.66,76.97,48000,4368000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2800.78,329.26,11.76,237.59,8.48,2.32,26.0,0.0,66.66,75.38,48000,4368000
+2020-Q2,2020-04,COVID-19 Collapse,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,792.64,103.48,13.05,-322.09,-40.63,0.57,32.9,0.0,20.57,23.69,48000,4368000
+2020-Q3,2020-07,COVID-19 Collapse,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,685.37,220.28,32.14,-193.66,-28.26,0.53,1.9,0.0,44.05,50.43,48000,4368000
+2020-Q4,2020-10,COVID-19 Collapse,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,825.2,199.44,24.17,-176.96,-21.44,0.64,39.7,0.0,39.95,45.66,48000,4368000
+2021-Q1,2021-01,COVID-19 Collapse,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,725.02,374.64,51.67,-223.67,-30.85,0.62,47.9,0.0,75.49,85.77,48000,4368000
+2021-Q2,2021-04,COVID-19 Collapse,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,851.08,397.14,46.66,-363.83,-42.75,0.63,43.1,1.75,76.83,90.92,48000,4368000
+2021-Q3,2021-07,Recovery & Surge,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2122.66,392.77,18.5,107.53,5.07,1.55,36.8,0.0,78.97,89.92,48000,4368000
+2021-Q4,2021-10,Recovery & Surge,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2092.2,455.36,21.76,127.85,6.11,1.56,22.7,16.37,86.82,104.25,48000,4368000
+2022-Q1,2022-01,Recovery & Surge,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,1904.26,355.73,18.68,16.62,0.87,1.63,43.6,0.0,72.01,81.44,48000,4368000
+2022-Q2,2022-04,Ukraine War Shock,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2936.81,574.96,19.58,80.67,2.75,2.32,54.5,144.94,109.53,131.63,48000,4368000
+2022-Q3,2022-07,Ukraine War Shock,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2988.99,412.73,13.81,296.03,9.9,2.39,0.1,0.02,80.69,94.49,48000,4368000
+2022-Q4,2022-10,Ukraine War Shock,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,3023.47,461.09,15.25,291.75,9.65,2.62,50.2,40.02,93.25,105.56,48000,4368000
+2023-Q1,2023-01,Stabilisation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2737.14,424.26,15.5,147.55,5.39,2.27,9.1,3.06,84.29,97.13,48000,4368000
+2023-Q2,2023-04,Stabilisation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,3007.01,445.4,14.81,254.34,8.46,2.17,9.8,5.81,88.18,101.97,48000,4368000
+2023-Q3,2023-07,Stabilisation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2765.74,425.97,15.4,305.27,11.04,2.31,13.8,4.91,85.16,97.52,48000,4368000
+2023-Q4,2023-10,Gaza-Israel Conflict,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2896.07,392.95,13.57,125.06,4.32,2.12,34.8,0.0,78.33,89.96,48000,4368000
+2024-Q1,2024-01,Gaza-Israel Conflict,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2916.19,432.52,14.83,383.29,13.14,2.29,7.8,3.38,84.61,99.02,48000,4368000
+2024-Q2,2024-04,Gaza-Israel Conflict,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2998.15,444.58,14.83,251.08,8.37,2.39,55.5,32.3,84.06,101.78,48000,4368000
+2024-Q3,2024-07,Gaza-Israel Conflict,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2873.22,410.5,14.29,201.54,7.01,2.31,40.6,7.37,80.4,93.98,48000,4368000
+2024-Q4,2024-10,Gaza-Israel Conflict,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2983.89,491.49,16.47,189.43,6.35,2.41,59.8,73.54,94.78,112.52,48000,4368000
+2025-Q1,2025-01,Pre-Iran Escalation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2676.55,443.53,16.57,159.14,5.95,2.07,44.1,25.08,85.13,101.54,48000,4368000
+2025-Q2,2025-04,Pre-Iran Escalation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2966.43,526.04,17.73,177.74,5.99,2.24,53.5,95.15,101.77,120.43,48000,4368000
+2025-Q3,2025-07,Pre-Iran Escalation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2714.0,490.18,18.06,179.44,6.61,2.26,10.8,13.07,93.24,112.22,48000,4368000
+2025-Q4,2025-10,Pre-Iran Escalation,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2961.4,487.77,16.47,263.72,8.91,2.34,8.8,10.34,99.34,111.67,48000,4368000
+2026-Q1,2026-01,US-Iran War Conflict,Cathay Pacific,Hong Kong,Asia,Flag Carrier,230,2340.61,641.22,27.4,-171.33,-7.32,1.94,20.6,83.36,130.88,146.8,48000,4368000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Air India,India,Asia,Flag Carrier,183,1691.37,217.18,12.84,153.91,9.1,1.98,29.9,0.0,63.0,74.58,32000,2912000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Air India,India,Asia,Flag Carrier,183,1593.88,213.57,13.4,79.89,5.01,1.66,36.6,0.0,64.79,73.34,32000,2912000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Air India,India,Asia,Flag Carrier,183,1579.67,207.07,13.11,69.47,4.4,1.71,22.6,0.0,60.46,71.11,32000,2912000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Air India,India,Asia,Flag Carrier,183,1632.56,224.14,13.73,139.44,8.54,1.88,62.5,0.0,65.66,76.97,32000,2912000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Air India,India,Asia,Flag Carrier,183,1599.16,219.51,13.73,214.67,13.42,1.65,49.1,0.0,66.66,75.38,32000,2912000
+2020-Q2,2020-04,COVID-19 Collapse,Air India,India,Asia,Flag Carrier,183,465.19,68.99,14.83,-203.26,-43.69,0.53,58.6,0.0,20.57,23.69,32000,2912000
+2020-Q3,2020-07,COVID-19 Collapse,Air India,India,Asia,Flag Carrier,183,546.07,146.85,26.89,-152.19,-27.87,0.63,4.7,0.0,44.05,50.43,32000,2912000
+2020-Q4,2020-10,COVID-19 Collapse,Air India,India,Asia,Flag Carrier,183,296.16,132.96,44.9,-113.84,-38.44,0.33,25.1,0.0,39.95,45.66,32000,2912000
+2021-Q1,2021-01,COVID-19 Collapse,Air India,India,Asia,Flag Carrier,183,457.32,249.76,54.61,-154.84,-33.86,0.53,46.4,0.0,75.49,85.77,32000,2912000
+2021-Q2,2021-04,COVID-19 Collapse,Air India,India,Asia,Flag Carrier,183,486.62,264.76,54.41,-118.14,-24.28,0.57,50.7,1.37,76.83,90.92,32000,2912000
+2021-Q3,2021-07,Recovery & Surge,Air India,India,Asia,Flag Carrier,183,1077.68,261.85,24.3,33.43,3.1,1.06,48.3,0.0,78.97,89.92,32000,2912000
+2021-Q4,2021-10,Recovery & Surge,Air India,India,Asia,Flag Carrier,183,1076.09,303.58,28.21,83.74,7.78,1.2,11.8,5.67,86.82,104.25,32000,2912000
+2022-Q1,2022-01,Recovery & Surge,Air India,India,Asia,Flag Carrier,183,1208.44,237.15,19.62,69.45,5.75,1.24,34.9,0.0,72.01,81.44,32000,2912000
+2022-Q2,2022-04,Ukraine War Shock,Air India,India,Asia,Flag Carrier,183,1463.66,383.31,26.19,121.59,8.31,1.5,25.2,44.68,109.53,131.63,32000,2912000
+2022-Q3,2022-07,Ukraine War Shock,Air India,India,Asia,Flag Carrier,183,1634.83,275.15,16.83,51.64,3.16,1.94,30.5,4.19,80.69,94.49,32000,2912000
+2022-Q4,2022-10,Ukraine War Shock,Air India,India,Asia,Flag Carrier,183,1537.83,307.39,19.99,121.2,7.88,1.81,59.3,31.51,93.25,105.56,32000,2912000
+2023-Q1,2023-01,Stabilisation,Air India,India,Asia,Flag Carrier,183,1634.83,282.84,17.3,124.16,7.59,1.94,3.4,0.76,84.29,97.13,32000,2912000
+2023-Q2,2023-04,Stabilisation,Air India,India,Asia,Flag Carrier,183,1702.3,296.94,17.44,98.31,5.78,1.85,62.0,24.49,88.18,101.97,32000,2912000
+2023-Q3,2023-07,Stabilisation,Air India,India,Asia,Flag Carrier,183,1666.52,283.98,17.04,153.89,9.23,1.66,18.0,4.27,85.16,97.52,32000,2912000
+2023-Q4,2023-10,Gaza-Israel Conflict,Air India,India,Asia,Flag Carrier,183,1544.39,261.96,16.96,196.91,12.75,1.74,7.7,0.0,78.33,89.96,32000,2912000
+2024-Q1,2024-01,Gaza-Israel Conflict,Air India,India,Asia,Flag Carrier,183,1620.53,288.35,17.79,196.31,12.11,1.64,15.0,4.33,84.61,99.02,32000,2912000
+2024-Q2,2024-04,Gaza-Israel Conflict,Air India,India,Asia,Flag Carrier,183,1658.12,296.38,17.87,90.36,5.45,1.77,63.8,24.75,84.06,101.78,32000,2912000
+2024-Q3,2024-07,Gaza-Israel Conflict,Air India,India,Asia,Flag Carrier,183,1658.64,273.67,16.5,182.7,11.02,1.87,13.8,1.67,80.4,93.98,32000,2912000
+2024-Q4,2024-10,Gaza-Israel Conflict,Air India,India,Asia,Flag Carrier,183,1722.49,327.66,19.02,89.92,5.22,2.04,14.0,11.48,94.78,112.52,32000,2912000
+2025-Q1,2025-01,Pre-Iran Escalation,Air India,India,Asia,Flag Carrier,183,1745.44,295.68,16.94,209.1,11.98,1.78,10.4,3.94,85.13,101.54,32000,2912000
+2025-Q2,2025-04,Pre-Iran Escalation,Air India,India,Asia,Flag Carrier,183,1561.61,350.69,22.46,101.09,6.47,1.76,33.8,40.08,101.77,120.43,32000,2912000
+2025-Q3,2025-07,Pre-Iran Escalation,Air India,India,Asia,Flag Carrier,183,1673.32,326.78,19.53,72.14,4.31,1.67,45.0,36.31,93.24,112.22,32000,2912000
+2025-Q4,2025-10,Pre-Iran Escalation,Air India,India,Asia,Flag Carrier,183,1722.87,325.18,18.87,130.84,7.59,1.76,20.0,15.66,99.34,111.67,32000,2912000
+2026-Q1,2026-01,US-Iran War Conflict,Air India,India,Asia,Flag Carrier,183,1271.41,427.48,33.62,-157.62,-12.4,1.36,58.3,157.29,130.88,146.8,32000,2912000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Korean Air,South Korea,Asia,Flag Carrier,169,2956.36,271.47,9.18,171.88,5.81,1.56,30.2,0.0,63.0,74.58,40000,3640000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Korean Air,South Korea,Asia,Flag Carrier,169,3102.57,266.96,8.6,393.84,12.69,1.62,0.2,0.0,64.79,73.34,40000,3640000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Korean Air,South Korea,Asia,Flag Carrier,169,3135.92,258.84,8.25,197.0,6.28,1.85,35.8,0.0,60.46,71.11,40000,3640000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Korean Air,South Korea,Asia,Flag Carrier,169,2957.48,280.17,9.47,161.7,5.47,1.7,53.2,0.0,65.66,76.97,40000,3640000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Korean Air,South Korea,Asia,Flag Carrier,169,2979.33,274.38,9.21,252.16,8.46,1.74,32.5,0.0,66.66,75.38,40000,3640000
+2020-Q2,2020-04,COVID-19 Collapse,Korean Air,South Korea,Asia,Flag Carrier,169,906.01,86.23,9.52,-395.45,-43.65,0.54,17.0,0.0,20.57,23.69,40000,3640000
+2020-Q3,2020-07,COVID-19 Collapse,Korean Air,South Korea,Asia,Flag Carrier,169,542.32,183.57,33.85,-239.67,-44.19,0.32,3.9,0.0,44.05,50.43,40000,3640000
+2020-Q4,2020-10,COVID-19 Collapse,Korean Air,South Korea,Asia,Flag Carrier,169,1005.61,166.2,16.53,-310.52,-30.88,0.58,47.1,0.0,39.95,45.66,40000,3640000
+2021-Q1,2021-01,COVID-19 Collapse,Korean Air,South Korea,Asia,Flag Carrier,169,615.18,312.2,50.75,-152.8,-24.84,0.37,24.0,0.0,75.49,85.77,40000,3640000
+2021-Q2,2021-04,COVID-19 Collapse,Korean Air,South Korea,Asia,Flag Carrier,169,935.36,330.95,35.38,-240.38,-25.7,0.53,23.9,0.81,76.83,90.92,40000,3640000
+2021-Q3,2021-07,Recovery & Surge,Korean Air,South Korea,Asia,Flag Carrier,169,2162.46,327.31,15.14,-21.65,-1.0,1.18,64.3,0.0,78.97,89.92,40000,3640000
+2021-Q4,2021-10,Recovery & Surge,Korean Air,South Korea,Asia,Flag Carrier,169,2131.91,379.47,17.8,77.85,3.65,1.14,30.3,18.21,86.82,104.25,40000,3640000
+2022-Q1,2022-01,Recovery & Surge,Korean Air,South Korea,Asia,Flag Carrier,169,1966.93,296.44,15.07,96.81,4.92,1.13,22.6,0.0,72.01,81.44,40000,3640000
+2022-Q2,2022-04,Ukraine War Shock,Korean Air,South Korea,Asia,Flag Carrier,169,2964.66,479.13,16.16,266.16,8.98,1.5,60.5,134.08,109.53,131.63,40000,3640000
+2022-Q3,2022-07,Ukraine War Shock,Korean Air,South Korea,Asia,Flag Carrier,169,2932.77,343.94,11.73,260.35,8.88,1.75,3.8,0.65,80.69,94.49,40000,3640000
+2022-Q4,2022-10,Ukraine War Shock,Korean Air,South Korea,Asia,Flag Carrier,169,3116.14,384.24,12.33,245.02,7.86,1.57,61.1,40.59,93.25,105.56,40000,3640000
+2023-Q1,2023-01,Stabilisation,Korean Air,South Korea,Asia,Flag Carrier,169,3045.85,353.55,11.61,172.86,5.68,1.57,36.5,10.22,84.29,97.13,40000,3640000
+2023-Q2,2023-04,Stabilisation,Korean Air,South Korea,Asia,Flag Carrier,169,2825.06,371.17,13.14,159.45,5.64,1.71,48.4,23.89,88.18,101.97,40000,3640000
+2023-Q3,2023-07,Stabilisation,Korean Air,South Korea,Asia,Flag Carrier,169,3037.77,354.97,11.69,184.95,6.09,1.59,29.0,8.6,85.16,97.52,40000,3640000
+2023-Q4,2023-10,Gaza-Israel Conflict,Korean Air,South Korea,Asia,Flag Carrier,169,3091.68,327.45,10.59,124.88,4.04,1.56,56.6,0.0,78.33,89.96,40000,3640000
+2024-Q1,2024-01,Gaza-Israel Conflict,Korean Air,South Korea,Asia,Flag Carrier,169,3114.69,360.43,11.57,340.96,10.95,1.73,9.4,3.4,84.61,99.02,40000,3640000
+2024-Q2,2024-04,Gaza-Israel Conflict,Korean Air,South Korea,Asia,Flag Carrier,169,2841.71,370.48,13.04,370.95,13.05,1.54,45.2,21.92,84.06,101.78,40000,3640000
+2024-Q3,2024-07,Gaza-Israel Conflict,Korean Air,South Korea,Asia,Flag Carrier,169,2977.45,342.09,11.49,336.73,11.31,1.55,31.5,4.77,80.4,93.98,40000,3640000
+2024-Q4,2024-10,Gaza-Israel Conflict,Korean Air,South Korea,Asia,Flag Carrier,169,2947.03,409.57,13.9,190.1,6.45,1.67,34.9,35.77,94.78,112.52,40000,3640000
+2025-Q1,2025-01,Pre-Iran Escalation,Korean Air,South Korea,Asia,Flag Carrier,169,2992.6,369.61,12.35,296.6,9.91,1.54,24.1,11.42,85.13,101.54,40000,3640000
+2025-Q2,2025-04,Pre-Iran Escalation,Korean Air,South Korea,Asia,Flag Carrier,169,2927.01,438.37,14.98,342.22,11.69,1.48,18.3,27.12,101.77,120.43,40000,3640000
+2025-Q3,2025-07,Pre-Iran Escalation,Korean Air,South Korea,Asia,Flag Carrier,169,3154.67,408.48,12.95,220.94,7.0,1.63,49.2,49.62,93.24,112.22,40000,3640000
+2025-Q4,2025-10,Pre-Iran Escalation,Korean Air,South Korea,Asia,Flag Carrier,169,2820.85,406.48,14.41,233.09,8.26,1.68,62.0,60.68,99.34,111.67,40000,3640000
+2026-Q1,2026-01,US-Iran War Conflict,Korean Air,South Korea,Asia,Flag Carrier,169,2211.92,534.35,24.16,-421.95,-19.08,1.25,14.7,49.57,130.88,146.8,40000,3640000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Japan Airlines,Japan,Asia,Flag Carrier,165,2981.51,285.04,9.56,246.27,8.26,1.42,58.1,0.0,63.0,74.58,42000,3822000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Japan Airlines,Japan,Asia,Flag Carrier,165,3054.85,280.31,9.18,224.92,7.36,1.68,22.2,0.0,64.79,73.34,42000,3822000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Japan Airlines,Japan,Asia,Flag Carrier,165,3225.42,271.78,8.43,187.48,5.81,1.69,50.0,0.0,60.46,71.11,42000,3822000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Japan Airlines,Japan,Asia,Flag Carrier,165,3101.1,294.18,9.49,146.31,4.72,1.69,32.1,0.0,65.66,76.97,42000,3822000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Japan Airlines,Japan,Asia,Flag Carrier,165,3047.74,288.1,9.45,424.49,13.93,1.71,2.5,0.0,66.66,75.38,42000,3822000
+2020-Q2,2020-04,COVID-19 Collapse,Japan Airlines,Japan,Asia,Flag Carrier,165,826.35,90.54,10.96,-298.61,-36.14,0.39,0.7,0.0,20.57,23.69,42000,3822000
+2020-Q3,2020-07,COVID-19 Collapse,Japan Airlines,Japan,Asia,Flag Carrier,165,820.26,192.74,23.5,-303.47,-37.0,0.44,29.5,0.0,44.05,50.43,42000,3822000
+2020-Q4,2020-10,COVID-19 Collapse,Japan Airlines,Japan,Asia,Flag Carrier,165,932.65,174.51,18.71,-230.12,-24.67,0.5,27.2,0.0,39.95,45.66,42000,3822000
+2021-Q1,2021-01,COVID-19 Collapse,Japan Airlines,Japan,Asia,Flag Carrier,165,1069.16,327.81,30.66,-399.15,-37.33,0.56,33.8,0.0,75.49,85.77,42000,3822000
+2021-Q2,2021-04,COVID-19 Collapse,Japan Airlines,Japan,Asia,Flag Carrier,165,724.68,347.5,47.95,-304.11,-41.96,0.37,14.0,0.5,76.83,90.92,42000,3822000
+2021-Q3,2021-07,Recovery & Surge,Japan Airlines,Japan,Asia,Flag Carrier,165,2552.16,343.67,13.47,89.83,3.52,1.27,36.8,0.0,78.97,89.92,42000,3822000
+2021-Q4,2021-10,Recovery & Surge,Japan Airlines,Japan,Asia,Flag Carrier,165,2523.47,398.44,15.79,180.37,7.15,1.2,51.1,32.24,86.82,104.25,42000,3822000
+2022-Q1,2022-01,Recovery & Surge,Japan Airlines,Japan,Asia,Flag Carrier,165,2593.03,311.26,12.0,27.85,1.07,1.48,62.2,0.0,72.01,81.44,42000,3822000
+2022-Q2,2022-04,Ukraine War Shock,Japan Airlines,Japan,Asia,Flag Carrier,165,3171.49,503.09,15.86,278.48,8.78,1.58,59.6,138.69,109.53,131.63,42000,3822000
+2022-Q3,2022-07,Ukraine War Shock,Japan Airlines,Japan,Asia,Flag Carrier,165,3131.51,361.14,11.53,190.31,6.08,1.74,57.8,10.41,80.69,94.49,42000,3822000
+2022-Q4,2022-10,Ukraine War Shock,Japan Airlines,Japan,Asia,Flag Carrier,165,3198.77,403.45,12.61,70.38,2.2,1.7,53.4,37.25,93.25,105.56,42000,3822000
+2023-Q1,2023-01,Stabilisation,Japan Airlines,Japan,Asia,Flag Carrier,165,3139.22,371.23,11.83,419.04,13.35,1.76,34.4,10.12,84.29,97.13,42000,3822000
+2023-Q2,2023-04,Stabilisation,Japan Airlines,Japan,Asia,Flag Carrier,165,3082.68,389.73,12.64,140.29,4.55,1.65,17.3,8.97,88.18,101.97,42000,3822000
+2023-Q3,2023-07,Stabilisation,Japan Airlines,Japan,Asia,Flag Carrier,165,3188.46,372.72,11.69,382.22,11.99,1.63,1.0,0.31,85.16,97.52,42000,3822000
+2023-Q4,2023-10,Gaza-Israel Conflict,Japan Airlines,Japan,Asia,Flag Carrier,165,3267.14,343.83,10.52,310.05,9.49,1.64,41.2,0.0,78.33,89.96,42000,3822000
+2024-Q1,2024-01,Gaza-Israel Conflict,Japan Airlines,Japan,Asia,Flag Carrier,165,3190.84,378.45,11.86,174.69,5.47,1.71,18.6,7.05,84.61,99.02,42000,3822000
+2024-Q2,2024-04,Gaza-Israel Conflict,Japan Airlines,Japan,Asia,Flag Carrier,165,3242.5,389.0,12.0,434.98,13.42,1.55,59.6,30.35,84.06,101.78,42000,3822000
+2024-Q3,2024-07,Gaza-Israel Conflict,Japan Airlines,Japan,Asia,Flag Carrier,165,3282.4,359.19,10.94,243.85,7.43,1.55,43.1,6.85,80.4,93.98,42000,3822000
+2024-Q4,2024-10,Gaza-Israel Conflict,Japan Airlines,Japan,Asia,Flag Carrier,165,3059.05,430.05,14.06,180.99,5.92,1.47,12.7,13.67,94.78,112.52,42000,3822000
+2025-Q1,2025-01,Pre-Iran Escalation,Japan Airlines,Japan,Asia,Flag Carrier,165,3016.18,388.09,12.87,360.68,11.96,1.66,32.1,15.97,85.13,101.54,42000,3822000
+2025-Q2,2025-04,Pre-Iran Escalation,Japan Airlines,Japan,Asia,Flag Carrier,165,3142.44,460.28,14.65,414.12,13.18,1.77,53.9,83.88,101.77,120.43,42000,3822000
+2025-Q3,2025-07,Pre-Iran Escalation,Japan Airlines,Japan,Asia,Flag Carrier,165,3070.87,428.9,13.97,235.4,7.67,1.72,60.2,63.75,93.24,112.22,42000,3822000
+2025-Q4,2025-10,Pre-Iran Escalation,Japan Airlines,Japan,Asia,Flag Carrier,165,3240.43,426.8,13.17,374.96,11.57,1.71,22.0,22.61,99.34,111.67,42000,3822000
+2026-Q1,2026-01,US-Iran War Conflict,Japan Airlines,Japan,Asia,Flag Carrier,165,2300.49,561.07,24.39,-510.55,-22.19,1.25,50.5,178.82,130.88,146.8,42000,3822000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Lufthansa,Germany,Europe,Flag Carrier,704,9069.28,610.81,6.73,368.25,4.06,7.4,28.4,0.0,63.0,74.58,90000,8190000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Lufthansa,Germany,Europe,Flag Carrier,704,9797.94,600.65,6.13,1055.59,10.77,6.8,21.3,0.0,64.79,73.34,90000,8190000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Lufthansa,Germany,Europe,Flag Carrier,704,9422.29,582.39,6.18,988.64,10.49,6.69,11.5,0.0,60.46,71.11,90000,8190000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Lufthansa,Germany,Europe,Flag Carrier,704,8972.44,630.38,7.03,1064.93,11.87,6.39,45.6,0.0,65.66,76.97,90000,8190000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Lufthansa,Germany,Europe,Flag Carrier,704,9674.21,617.36,6.38,765.83,7.92,6.54,9.2,0.0,66.66,75.38,90000,8190000
+2020-Q2,2020-04,COVID-19 Collapse,Lufthansa,Germany,Europe,Flag Carrier,704,1932.65,194.02,10.04,-777.91,-40.25,1.39,35.4,0.0,20.57,23.69,90000,8190000
+2020-Q3,2020-07,COVID-19 Collapse,Lufthansa,Germany,Europe,Flag Carrier,704,1403.37,413.02,29.43,-608.96,-43.39,1.13,34.0,0.0,44.05,50.43,90000,8190000
+2020-Q4,2020-10,COVID-19 Collapse,Lufthansa,Germany,Europe,Flag Carrier,704,3067.67,373.96,12.19,-1377.94,-44.92,2.07,48.1,0.0,39.95,45.66,90000,8190000
+2021-Q1,2021-01,COVID-19 Collapse,Lufthansa,Germany,Europe,Flag Carrier,704,2231.78,702.46,31.48,-494.45,-22.16,1.77,32.8,0.0,75.49,85.77,90000,8190000
+2021-Q2,2021-04,COVID-19 Collapse,Lufthansa,Germany,Europe,Flag Carrier,704,2235.91,744.63,33.3,-552.73,-24.72,1.78,18.0,1.37,76.83,90.92,90000,8190000
+2021-Q3,2021-07,Recovery & Surge,Lufthansa,Germany,Europe,Flag Carrier,704,7142.84,736.44,10.31,240.12,3.36,5.74,56.5,0.0,78.97,89.92,90000,8190000
+2021-Q4,2021-10,Recovery & Surge,Lufthansa,Germany,Europe,Flag Carrier,704,6403.27,853.81,13.33,412.16,6.44,5.21,7.1,9.6,86.82,104.25,90000,8190000
+2022-Q1,2022-01,Recovery & Surge,Lufthansa,Germany,Europe,Flag Carrier,704,6959.22,666.99,9.58,46.91,0.67,5.12,45.8,0.0,72.01,81.44,90000,8190000
+2022-Q2,2022-04,Ukraine War Shock,Lufthansa,Germany,Europe,Flag Carrier,704,8425.81,1078.05,12.79,721.21,8.56,5.72,37.6,187.5,109.53,131.63,90000,8190000
+2022-Q3,2022-07,Ukraine War Shock,Lufthansa,Germany,Europe,Flag Carrier,704,8600.16,773.87,9.0,631.23,7.34,6.49,65.0,25.09,80.69,94.49,90000,8190000
+2022-Q4,2022-10,Ukraine War Shock,Lufthansa,Germany,Europe,Flag Carrier,704,9759.43,864.54,8.86,458.02,4.69,7.37,20.7,30.94,93.25,105.56,90000,8190000
+2023-Q1,2023-01,Stabilisation,Lufthansa,Germany,Europe,Flag Carrier,704,9507.16,795.49,8.37,781.88,8.22,6.59,43.0,27.1,84.29,97.13,90000,8190000
+2023-Q2,2023-04,Stabilisation,Lufthansa,Germany,Europe,Flag Carrier,704,8658.09,835.13,9.65,603.72,6.97,7.03,6.1,6.78,88.18,101.97,90000,8190000
+2023-Q3,2023-07,Stabilisation,Lufthansa,Germany,Europe,Flag Carrier,704,9241.74,798.69,8.64,1104.47,11.95,7.5,36.4,24.29,85.16,97.52,90000,8190000
+2023-Q4,2023-10,Gaza-Israel Conflict,Lufthansa,Germany,Europe,Flag Carrier,704,8826.21,736.77,8.35,1183.47,13.41,6.95,25.7,0.0,78.33,89.96,90000,8190000
+2024-Q1,2024-01,Gaza-Israel Conflict,Lufthansa,Germany,Europe,Flag Carrier,704,8972.67,810.97,9.04,401.72,4.48,6.32,50.5,41.05,84.61,99.02,90000,8190000
+2024-Q2,2024-04,Gaza-Israel Conflict,Lufthansa,Germany,Europe,Flag Carrier,704,8773.51,833.58,9.5,464.48,5.29,6.18,25.7,28.04,84.06,101.78,90000,8190000
+2024-Q3,2024-07,Gaza-Israel Conflict,Lufthansa,Germany,Europe,Flag Carrier,704,8868.67,769.7,8.68,1156.74,13.04,6.33,59.8,20.35,80.4,93.98,90000,8190000
+2024-Q4,2024-10,Gaza-Israel Conflict,Lufthansa,Germany,Europe,Flag Carrier,704,9810.19,921.54,9.39,1132.88,11.55,6.64,15.6,35.97,94.78,112.52,90000,8190000
+2025-Q1,2025-01,Pre-Iran Escalation,Lufthansa,Germany,Europe,Flag Carrier,704,8961.26,831.61,9.28,844.83,9.43,6.27,5.0,5.33,85.13,101.54,90000,8190000
+2025-Q2,2025-04,Pre-Iran Escalation,Lufthansa,Germany,Europe,Flag Carrier,704,8853.63,986.32,11.14,643.97,7.27,6.05,12.7,42.35,101.77,120.43,90000,8190000
+2025-Q3,2025-07,Pre-Iran Escalation,Lufthansa,Germany,Europe,Flag Carrier,704,8843.18,919.08,10.39,1036.74,11.72,6.2,51.5,116.86,93.24,112.22,90000,8190000
+2025-Q4,2025-10,Pre-Iran Escalation,Lufthansa,Germany,Europe,Flag Carrier,704,9246.18,914.58,9.89,1070.57,11.58,6.87,58.6,129.04,99.34,111.67,90000,8190000
+2026-Q1,2026-01,US-Iran War Conflict,Lufthansa,Germany,Europe,Flag Carrier,704,6873.26,1202.29,17.49,-664.22,-9.66,4.81,57.4,435.54,130.88,146.8,90000,8190000
+2019-Q1,2019-01,Pre-Pandemic Baseline,British Airways,UK,Europe,Flag Carrier,290,3385.63,420.78,12.43,290.3,8.57,2.64,40.5,0.0,63.0,74.58,62000,5642000
+2019-Q2,2019-04,Pre-Pandemic Baseline,British Airways,UK,Europe,Flag Carrier,290,3575.99,413.78,11.57,353.66,9.89,3.04,9.2,0.0,64.79,73.34,62000,5642000
+2019-Q3,2019-07,Pre-Pandemic Baseline,British Airways,UK,Europe,Flag Carrier,290,3485.17,401.2,11.51,419.2,12.03,2.61,58.9,0.0,60.46,71.11,62000,5642000
+2019-Q4,2019-10,Pre-Pandemic Baseline,British Airways,UK,Europe,Flag Carrier,290,3622.08,434.26,11.99,174.54,4.82,2.6,49.6,0.0,65.66,76.97,62000,5642000
+2020-Q1,2020-01,Pre-Pandemic Baseline,British Airways,UK,Europe,Flag Carrier,290,3767.71,425.29,11.29,241.08,6.4,2.83,62.0,0.0,66.66,75.38,62000,5642000
+2020-Q2,2020-04,COVID-19 Collapse,British Airways,UK,Europe,Flag Carrier,290,998.39,133.66,13.39,-407.44,-40.81,0.78,59.2,0.0,20.57,23.69,62000,5642000
+2020-Q3,2020-07,COVID-19 Collapse,British Airways,UK,Europe,Flag Carrier,290,973.53,284.53,29.23,-338.92,-34.81,0.72,47.2,0.0,44.05,50.43,62000,5642000
+2020-Q4,2020-10,COVID-19 Collapse,British Airways,UK,Europe,Flag Carrier,290,728.72,257.61,35.35,-224.83,-30.85,0.59,36.1,0.0,39.95,45.66,62000,5642000
+2021-Q1,2021-01,COVID-19 Collapse,British Airways,UK,Europe,Flag Carrier,290,707.51,483.91,68.4,-193.1,-27.29,0.57,26.2,0.0,75.49,85.77,62000,5642000
+2021-Q2,2021-04,COVID-19 Collapse,British Airways,UK,Europe,Flag Carrier,290,569.51,512.97,90.07,-209.12,-36.72,0.44,51.4,2.7,76.83,90.92,62000,5642000
+2021-Q3,2021-07,Recovery & Surge,British Airways,UK,Europe,Flag Carrier,290,2672.05,507.33,18.99,190.18,7.12,2.22,35.0,0.0,78.97,89.92,62000,5642000
+2021-Q4,2021-10,Recovery & Surge,British Airways,UK,Europe,Flag Carrier,290,2427.41,588.18,24.23,-51.62,-2.13,1.79,28.8,26.82,86.82,104.25,62000,5642000
+2022-Q1,2022-01,Recovery & Surge,British Airways,UK,Europe,Flag Carrier,290,2820.49,459.48,16.29,137.39,4.87,2.05,32.2,0.0,72.01,81.44,62000,5642000
+2022-Q2,2022-04,Ukraine War Shock,British Airways,UK,Europe,Flag Carrier,290,3536.82,742.66,21.0,194.92,5.51,2.69,30.9,106.15,109.53,131.63,62000,5642000
+2022-Q3,2022-07,Ukraine War Shock,British Airways,UK,Europe,Flag Carrier,290,3561.79,533.11,14.97,242.12,6.8,2.75,61.4,16.33,80.69,94.49,62000,5642000
+2022-Q4,2022-10,Ukraine War Shock,British Airways,UK,Europe,Flag Carrier,290,3435.58,595.57,17.34,314.71,9.16,2.89,30.2,31.1,93.25,105.56,62000,5642000
+2023-Q1,2023-01,Stabilisation,British Airways,UK,Europe,Flag Carrier,290,3601.55,548.01,15.22,457.35,12.7,2.85,44.2,19.19,84.29,97.13,62000,5642000
+2023-Q2,2023-04,Stabilisation,British Airways,UK,Europe,Flag Carrier,290,3745.99,575.31,15.36,489.93,13.08,2.8,63.4,48.51,88.18,101.97,62000,5642000
+2023-Q3,2023-07,Stabilisation,British Airways,UK,Europe,Flag Carrier,290,3818.0,550.21,14.41,266.25,6.97,3.09,3.0,1.38,85.16,97.52,62000,5642000
+2023-Q4,2023-10,Gaza-Israel Conflict,British Airways,UK,Europe,Flag Carrier,290,3449.95,507.55,14.71,339.41,9.84,2.82,34.7,0.0,78.33,89.96,62000,5642000
+2024-Q1,2024-01,Gaza-Israel Conflict,British Airways,UK,Europe,Flag Carrier,290,3697.73,558.67,15.11,441.1,11.93,2.74,42.9,24.02,84.61,99.02,62000,5642000
+2024-Q2,2024-04,Gaza-Israel Conflict,British Airways,UK,Europe,Flag Carrier,290,3632.14,574.24,15.81,187.99,5.18,2.72,27.3,20.52,84.06,101.78,62000,5642000
+2024-Q3,2024-07,Gaza-Israel Conflict,British Airways,UK,Europe,Flag Carrier,290,3771.12,530.24,14.06,232.69,6.17,2.8,46.9,11.0,80.4,93.98,62000,5642000
+2024-Q4,2024-10,Gaza-Israel Conflict,British Airways,UK,Europe,Flag Carrier,290,3822.83,634.84,16.61,323.92,8.47,2.94,16.5,26.21,94.78,112.52,62000,5642000
+2025-Q1,2025-01,Pre-Iran Escalation,British Airways,UK,Europe,Flag Carrier,290,3395.46,572.89,16.87,196.4,5.78,2.47,32.1,23.58,85.13,101.54,62000,5642000
+2025-Q2,2025-04,Pre-Iran Escalation,British Airways,UK,Europe,Flag Carrier,290,3823.94,679.47,17.77,454.06,11.87,3.09,31.6,72.6,101.77,120.43,62000,5642000
+2025-Q3,2025-07,Pre-Iran Escalation,British Airways,UK,Europe,Flag Carrier,290,3657.33,633.15,17.31,283.82,7.76,2.71,38.3,59.87,93.24,112.22,62000,5642000
+2025-Q4,2025-10,Pre-Iran Escalation,British Airways,UK,Europe,Flag Carrier,290,3616.22,630.04,17.42,486.21,13.45,2.95,50.3,76.31,99.34,111.67,62000,5642000
+2026-Q1,2026-01,US-Iran War Conflict,British Airways,UK,Europe,Flag Carrier,290,2550.82,828.25,32.47,-249.5,-9.78,2.22,42.7,223.2,130.88,146.8,62000,5642000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Air France,France,Europe,Flag Carrier,550,7848.53,542.94,6.92,1082.72,13.8,5.46,53.6,0.0,63.0,74.58,80000,7280000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Air France,France,Europe,Flag Carrier,550,7514.7,533.92,7.1,620.65,8.26,5.51,16.7,0.0,64.79,73.34,80000,7280000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Air France,France,Europe,Flag Carrier,550,8092.96,517.68,6.4,590.16,7.29,5.32,21.0,0.0,60.46,71.11,80000,7280000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Air France,France,Europe,Flag Carrier,550,7959.57,560.34,7.04,568.26,7.14,5.79,60.8,0.0,65.66,76.97,80000,7280000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Air France,France,Europe,Flag Carrier,550,7378.47,548.77,7.44,392.07,5.31,4.83,28.6,0.0,66.66,75.38,80000,7280000
+2020-Q2,2020-04,COVID-19 Collapse,Air France,France,Europe,Flag Carrier,550,1281.43,172.46,13.46,-431.26,-33.65,0.98,50.5,0.0,20.57,23.69,80000,7280000
+2020-Q3,2020-07,COVID-19 Collapse,Air France,France,Europe,Flag Carrier,550,1997.55,367.13,18.38,-474.21,-23.74,1.31,39.6,0.0,44.05,50.43,80000,7280000
+2020-Q4,2020-10,COVID-19 Collapse,Air France,France,Europe,Flag Carrier,550,1298.46,332.4,25.6,-427.8,-32.95,0.92,17.2,0.0,39.95,45.66,80000,7280000
+2021-Q1,2021-01,COVID-19 Collapse,Air France,France,Europe,Flag Carrier,550,2369.78,624.41,26.35,-931.19,-39.29,1.7,31.3,0.0,75.49,85.77,80000,7280000
+2021-Q2,2021-04,COVID-19 Collapse,Air France,France,Europe,Flag Carrier,550,1772.48,661.9,37.34,-782.75,-44.16,1.31,0.8,0.05,76.83,90.92,80000,7280000
+2021-Q3,2021-07,Recovery & Surge,Air France,France,Europe,Flag Carrier,550,6105.82,654.62,10.72,-93.84,-1.54,4.01,27.1,0.0,78.97,89.92,80000,7280000
+2021-Q4,2021-10,Recovery & Surge,Air France,France,Europe,Flag Carrier,550,5714.04,758.94,13.28,-55.16,-0.97,3.76,1.2,1.44,86.82,104.25,80000,7280000
+2022-Q1,2022-01,Recovery & Surge,Air France,France,Europe,Flag Carrier,550,5930.72,592.88,10.0,386.9,6.52,3.88,15.0,0.0,72.01,81.44,80000,7280000
+2022-Q2,2022-04,Ukraine War Shock,Air France,France,Europe,Flag Carrier,550,6780.34,958.27,14.13,615.69,9.08,4.77,60.1,266.39,109.53,131.63,80000,7280000
+2022-Q3,2022-07,Ukraine War Shock,Air France,France,Europe,Flag Carrier,550,7452.15,687.89,9.23,663.05,8.9,5.78,21.8,7.48,80.69,94.49,80000,7280000
+2022-Q4,2022-10,Ukraine War Shock,Air France,France,Europe,Flag Carrier,550,7711.07,768.48,9.97,565.33,7.33,4.96,28.5,37.87,93.25,105.56,80000,7280000
+2023-Q1,2023-01,Stabilisation,Air France,France,Europe,Flag Carrier,550,7958.94,707.11,8.88,1071.5,13.46,6.11,63.2,35.4,84.29,97.13,80000,7280000
+2023-Q2,2023-04,Stabilisation,Air France,France,Europe,Flag Carrier,550,7761.72,742.34,9.56,491.16,6.33,5.6,27.4,27.05,88.18,101.97,80000,7280000
+2023-Q3,2023-07,Stabilisation,Air France,France,Europe,Flag Carrier,550,7377.19,709.95,9.62,865.19,11.73,5.38,51.4,30.49,85.16,97.52,80000,7280000
+2023-Q4,2023-10,Gaza-Israel Conflict,Air France,France,Europe,Flag Carrier,550,7387.75,654.91,8.86,963.28,13.04,4.98,39.1,0.0,78.33,89.96,80000,7280000
+2024-Q1,2024-01,Gaza-Israel Conflict,Air France,France,Europe,Flag Carrier,550,7180.47,720.87,10.04,675.66,9.41,4.7,21.6,15.61,84.61,99.02,80000,7280000
+2024-Q2,2024-04,Gaza-Israel Conflict,Air France,France,Europe,Flag Carrier,550,7964.17,740.96,9.3,1030.19,12.94,5.97,23.9,23.18,84.06,101.78,80000,7280000
+2024-Q3,2024-07,Gaza-Israel Conflict,Air France,France,Europe,Flag Carrier,550,7689.25,684.17,8.9,479.79,6.24,5.67,22.6,6.84,80.4,93.98,80000,7280000
+2024-Q4,2024-10,Gaza-Israel Conflict,Air France,France,Europe,Flag Carrier,550,7340.47,819.15,11.16,723.01,9.85,4.82,44.6,91.42,94.78,112.52,80000,7280000
+2025-Q1,2025-01,Pre-Iran Escalation,Air France,France,Europe,Flag Carrier,550,7307.33,739.21,10.12,696.72,9.53,5.09,36.8,34.88,85.13,101.54,80000,7280000
+2025-Q2,2025-04,Pre-Iran Escalation,Air France,France,Europe,Flag Carrier,550,7364.81,876.73,11.9,523.19,7.1,4.86,50.5,149.7,101.77,120.43,80000,7280000
+2025-Q3,2025-07,Pre-Iran Escalation,Air France,France,Europe,Flag Carrier,550,7193.36,816.96,11.36,558.52,7.76,5.07,12.7,25.62,93.24,112.22,80000,7280000
+2025-Q4,2025-10,Pre-Iran Escalation,Air France,France,Europe,Flag Carrier,550,7500.2,812.96,10.84,613.58,8.18,5.04,41.6,81.43,99.34,111.67,80000,7280000
+2026-Q1,2026-01,US-Iran War Conflict,Air France,France,Europe,Flag Carrier,550,5296.28,1068.7,20.18,-1114.8,-21.05,3.86,40.8,275.18,130.88,146.8,80000,7280000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4627.08,475.07,10.27,501.14,10.83,4.1,34.3,0.0,63.0,74.58,70000,6370000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4668.22,467.18,10.01,646.21,13.84,4.36,16.1,0.0,64.79,73.34,70000,6370000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4609.54,452.97,9.83,541.24,11.74,4.02,5.9,0.0,60.46,71.11,70000,6370000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4486.75,490.3,10.93,365.2,8.14,3.93,45.9,0.0,65.66,76.97,70000,6370000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4816.19,480.17,9.97,563.55,11.7,4.14,40.6,0.0,66.66,75.38,70000,6370000
+2020-Q2,2020-04,COVID-19 Collapse,Turkish Airlines,Turkey,Europe,Flag Carrier,432,1537.56,150.91,9.81,-665.27,-43.27,1.43,46.5,0.0,20.57,23.69,70000,6370000
+2020-Q3,2020-07,COVID-19 Collapse,Turkish Airlines,Turkey,Europe,Flag Carrier,432,1451.39,321.24,22.13,-555.5,-38.27,1.27,15.6,0.0,44.05,50.43,70000,6370000
+2020-Q4,2020-10,COVID-19 Collapse,Turkish Airlines,Turkey,Europe,Flag Carrier,432,995.07,290.85,29.23,-206.85,-20.79,0.88,55.2,0.0,39.95,45.66,70000,6370000
+2021-Q1,2021-01,COVID-19 Collapse,Turkish Airlines,Turkey,Europe,Flag Carrier,432,1452.19,546.35,37.62,-492.1,-33.89,1.42,54.7,0.0,75.49,85.77,70000,6370000
+2021-Q2,2021-04,COVID-19 Collapse,Turkish Airlines,Turkey,Europe,Flag Carrier,432,1158.73,579.16,49.98,-431.71,-37.26,0.95,30.2,1.79,76.83,90.92,70000,6370000
+2021-Q3,2021-07,Recovery & Surge,Turkish Airlines,Turkey,Europe,Flag Carrier,432,3393.41,572.79,16.88,144.15,4.25,2.74,54.0,0.0,78.97,89.92,70000,6370000
+2021-Q4,2021-10,Recovery & Surge,Turkish Airlines,Turkey,Europe,Flag Carrier,432,3446.63,664.07,19.27,38.14,1.11,2.88,60.9,64.03,86.82,104.25,70000,6370000
+2022-Q1,2022-01,Recovery & Surge,Turkish Airlines,Turkey,Europe,Flag Carrier,432,3429.48,518.77,15.13,204.24,5.96,2.9,6.3,0.0,72.01,81.44,70000,6370000
+2022-Q2,2022-04,Ukraine War Shock,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4827.62,838.48,17.37,476.74,9.88,4.43,39.6,153.59,109.53,131.63,70000,6370000
+2022-Q3,2022-07,Ukraine War Shock,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4645.7,601.9,12.96,198.39,4.27,4.08,9.7,2.91,80.69,94.49,70000,6370000
+2022-Q4,2022-10,Ukraine War Shock,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4476.19,672.42,15.02,264.05,5.9,3.71,51.4,59.75,93.25,105.56,70000,6370000
+2023-Q1,2023-01,Stabilisation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4472.06,618.72,13.84,322.7,7.22,4.0,60.4,29.61,84.29,97.13,70000,6370000
+2023-Q2,2023-04,Stabilisation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4815.38,649.55,13.49,334.62,6.95,4.17,22.0,19.01,88.18,101.97,70000,6370000
+2023-Q3,2023-07,Stabilisation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4575.21,621.2,13.58,249.28,5.45,4.06,17.6,9.14,85.16,97.52,70000,6370000
+2023-Q4,2023-10,Gaza-Israel Conflict,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4521.12,573.05,12.67,278.72,6.16,4.05,16.7,0.0,78.33,89.96,70000,6370000
+2024-Q1,2024-01,Gaza-Israel Conflict,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4610.26,630.76,13.68,470.55,10.21,4.27,15.7,9.92,84.61,99.02,70000,6370000
+2024-Q2,2024-04,Gaza-Israel Conflict,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4753.48,648.34,13.64,553.57,11.65,4.4,4.5,3.82,84.06,101.78,70000,6370000
+2024-Q3,2024-07,Gaza-Israel Conflict,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4685.0,598.65,12.78,526.26,11.23,3.91,12.7,3.36,80.4,93.98,70000,6370000
+2024-Q4,2024-10,Gaza-Israel Conflict,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4850.03,716.75,14.78,331.62,6.84,4.17,34.0,60.98,94.78,112.52,70000,6370000
+2025-Q1,2025-01,Pre-Iran Escalation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4923.6,646.81,13.14,442.28,8.98,4.74,6.9,5.72,85.13,101.54,70000,6370000
+2025-Q2,2025-04,Pre-Iran Escalation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4925.79,767.14,15.57,464.82,9.44,4.67,20.6,53.43,101.77,120.43,70000,6370000
+2025-Q3,2025-07,Pre-Iran Escalation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4759.56,714.84,15.02,582.38,12.24,4.53,24.4,43.06,93.24,112.22,70000,6370000
+2025-Q4,2025-10,Pre-Iran Escalation,Turkish Airlines,Turkey,Europe,Flag Carrier,432,4967.36,711.34,14.32,537.67,10.82,4.35,63.0,107.9,99.34,111.67,70000,6370000
+2026-Q1,2026-01,US-Iran War Conflict,Turkish Airlines,Turkey,Europe,Flag Carrier,432,3319.04,935.12,28.17,-575.75,-17.35,2.85,60.8,358.82,130.88,146.8,70000,6370000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Ryanair,Ireland,Europe,Low Cost,562,3081.37,373.27,12.11,316.77,10.28,5.48,11.4,0.0,63.0,74.58,55000,5005000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Ryanair,Ireland,Europe,Low Cost,562,3102.38,367.07,11.83,138.93,4.48,4.92,33.3,0.0,64.79,73.34,55000,5005000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Ryanair,Ireland,Europe,Low Cost,562,3432.69,355.91,10.37,446.74,13.01,5.69,30.4,0.0,60.46,71.11,55000,5005000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Ryanair,Ireland,Europe,Low Cost,562,3384.05,385.23,11.38,410.31,12.12,5.26,12.5,0.0,65.66,76.97,55000,5005000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Ryanair,Ireland,Europe,Low Cost,562,3430.6,377.28,11.0,391.06,11.4,6.24,23.0,0.0,66.66,75.38,55000,5005000
+2020-Q2,2020-04,COVID-19 Collapse,Ryanair,Ireland,Europe,Low Cost,562,731.56,118.57,16.21,-210.1,-28.72,1.24,18.1,0.0,20.57,23.69,55000,5005000
+2020-Q3,2020-07,COVID-19 Collapse,Ryanair,Ireland,Europe,Low Cost,562,702.64,252.4,35.92,-288.45,-41.05,1.2,23.2,0.0,44.05,50.43,55000,5005000
+2020-Q4,2020-10,COVID-19 Collapse,Ryanair,Ireland,Europe,Low Cost,562,858.09,228.53,26.63,-361.21,-42.09,1.58,31.0,0.0,39.95,45.66,55000,5005000
+2021-Q1,2021-01,COVID-19 Collapse,Ryanair,Ireland,Europe,Low Cost,562,563.82,429.28,76.14,-242.53,-43.02,0.99,17.0,0.0,75.49,85.77,55000,5005000
+2021-Q2,2021-04,COVID-19 Collapse,Ryanair,Ireland,Europe,Low Cost,562,684.19,455.05,66.51,-164.21,-24.0,1.13,27.1,1.26,76.83,90.92,55000,5005000
+2021-Q3,2021-07,Recovery & Surge,Ryanair,Ireland,Europe,Low Cost,562,2423.73,450.05,18.57,-38.33,-1.58,3.99,38.0,0.0,78.97,89.92,55000,5005000
+2021-Q4,2021-10,Recovery & Surge,Ryanair,Ireland,Europe,Low Cost,562,2292.08,521.77,22.76,119.01,5.19,4.19,7.5,6.2,86.82,104.25,55000,5005000
+2022-Q1,2022-01,Recovery & Surge,Ryanair,Ireland,Europe,Low Cost,562,2504.39,407.61,16.28,118.72,4.74,4.21,24.9,0.0,72.01,81.44,55000,5005000
+2022-Q2,2022-04,Ukraine War Shock,Ryanair,Ireland,Europe,Low Cost,562,2983.56,658.81,22.08,135.69,4.55,5.29,26.1,79.54,109.53,131.63,55000,5005000
+2022-Q3,2022-07,Ukraine War Shock,Ryanair,Ireland,Europe,Low Cost,562,2967.29,472.92,15.94,293.89,9.9,5.5,12.8,3.02,80.69,94.49,55000,5005000
+2022-Q4,2022-10,Ukraine War Shock,Ryanair,Ireland,Europe,Low Cost,562,3440.08,528.33,15.36,142.33,4.14,5.94,32.4,29.59,93.25,105.56,55000,5005000
+2023-Q1,2023-01,Stabilisation,Ryanair,Ireland,Europe,Low Cost,562,3183.14,486.14,15.27,304.04,9.55,5.37,31.6,12.17,84.29,97.13,55000,5005000
+2023-Q2,2023-04,Stabilisation,Ryanair,Ireland,Europe,Low Cost,562,3239.13,510.36,15.76,313.2,9.67,5.9,29.5,20.02,88.18,101.97,55000,5005000
+2023-Q3,2023-07,Stabilisation,Ryanair,Ireland,Europe,Low Cost,562,3259.44,488.09,14.97,280.73,8.61,5.14,7.0,2.85,85.16,97.52,55000,5005000
+2023-Q4,2023-10,Gaza-Israel Conflict,Ryanair,Ireland,Europe,Low Cost,562,3436.35,450.25,13.1,201.55,5.87,5.59,26.4,0.0,78.33,89.96,55000,5005000
+2024-Q1,2024-01,Gaza-Israel Conflict,Ryanair,Ireland,Europe,Low Cost,562,3384.42,495.6,14.64,417.35,12.33,6.15,39.2,19.47,84.61,99.02,55000,5005000
+2024-Q2,2024-04,Gaza-Israel Conflict,Ryanair,Ireland,Europe,Low Cost,562,3063.17,509.41,16.63,245.01,8.0,5.65,21.4,14.27,84.06,101.78,55000,5005000
+2024-Q3,2024-07,Gaza-Israel Conflict,Ryanair,Ireland,Europe,Low Cost,562,3402.46,470.37,13.82,142.11,4.18,5.8,37.3,7.76,80.4,93.98,55000,5005000
+2024-Q4,2024-10,Gaza-Israel Conflict,Ryanair,Ireland,Europe,Low Cost,562,3148.69,563.16,17.89,418.67,13.3,4.84,7.8,10.99,94.78,112.52,55000,5005000
+2025-Q1,2025-01,Pre-Iran Escalation,Ryanair,Ireland,Europe,Low Cost,562,3238.36,508.21,15.69,163.98,5.06,5.21,15.4,10.04,85.13,101.54,55000,5005000
+2025-Q2,2025-04,Pre-Iran Escalation,Ryanair,Ireland,Europe,Low Cost,562,3240.3,602.75,18.6,256.15,7.91,5.99,36.0,73.37,101.77,120.43,55000,5005000
+2025-Q3,2025-07,Pre-Iran Escalation,Ryanair,Ireland,Europe,Low Cost,562,3351.2,561.66,16.76,355.0,10.59,5.37,26.1,36.19,93.24,112.22,55000,5005000
+2025-Q4,2025-10,Pre-Iran Escalation,Ryanair,Ireland,Europe,Low Cost,562,3101.18,558.91,18.02,264.44,8.53,5.24,29.1,39.16,99.34,111.67,55000,5005000
+2026-Q1,2026-01,US-Iran War Conflict,Ryanair,Ireland,Europe,Low Cost,562,2774.48,734.73,26.48,-515.77,-18.59,4.29,6.6,30.6,130.88,146.8,55000,5005000
+2019-Q1,2019-01,Pre-Pandemic Baseline,American Airlines,USA,N. America,Flag Carrier,958,14041.2,814.41,5.8,1244.51,8.86,9.39,2.1,0.0,63.0,74.58,120000,10920000
+2019-Q2,2019-04,Pre-Pandemic Baseline,American Airlines,USA,N. America,Flag Carrier,958,13447.36,800.87,5.96,722.25,5.37,9.31,33.5,0.0,64.79,73.34,120000,10920000
+2019-Q3,2019-07,Pre-Pandemic Baseline,American Airlines,USA,N. America,Flag Carrier,958,12933.31,776.52,6.0,774.49,5.99,8.23,38.1,0.0,60.46,71.11,120000,10920000
+2019-Q4,2019-10,Pre-Pandemic Baseline,American Airlines,USA,N. America,Flag Carrier,958,12883.96,840.51,6.52,1646.86,12.78,9.26,36.2,0.0,65.66,76.97,120000,10920000
+2020-Q1,2020-01,Pre-Pandemic Baseline,American Airlines,USA,N. America,Flag Carrier,958,13406.04,823.15,6.14,824.89,6.15,10.32,62.9,0.0,66.66,75.38,120000,10920000
+2020-Q2,2020-04,COVID-19 Collapse,American Airlines,USA,N. America,Flag Carrier,958,2828.16,258.69,9.15,-723.86,-25.59,1.84,50.7,0.0,20.57,23.69,120000,10920000
+2020-Q3,2020-07,COVID-19 Collapse,American Airlines,USA,N. America,Flag Carrier,958,2735.92,550.7,20.13,-1033.4,-37.77,1.93,25.5,0.0,44.05,50.43,120000,10920000
+2020-Q4,2020-10,COVID-19 Collapse,American Airlines,USA,N. America,Flag Carrier,958,2291.07,498.61,21.76,-691.29,-30.17,1.52,28.9,0.0,39.95,45.66,120000,10920000
+2021-Q1,2021-01,COVID-19 Collapse,American Airlines,USA,N. America,Flag Carrier,958,2589.87,936.61,36.16,-610.18,-23.56,1.76,57.7,0.0,75.49,85.77,120000,10920000
+2021-Q2,2021-04,COVID-19 Collapse,American Airlines,USA,N. America,Flag Carrier,958,2840.9,992.85,34.95,-1150.92,-40.51,2.03,36.1,3.66,76.83,90.92,120000,10920000
+2021-Q3,2021-07,Recovery & Surge,American Airlines,USA,N. America,Flag Carrier,958,10213.93,981.93,9.61,-109.51,-1.07,6.93,15.4,0.0,78.97,89.92,120000,10920000
+2021-Q4,2021-10,Recovery & Surge,American Airlines,USA,N. America,Flag Carrier,958,11030.98,1138.41,10.32,427.83,3.88,8.16,12.6,22.71,86.82,104.25,120000,10920000
+2022-Q1,2022-01,Recovery & Surge,American Airlines,USA,N. America,Flag Carrier,958,10326.57,889.32,8.61,507.51,4.91,7.04,10.3,0.0,72.01,81.44,120000,10920000
+2022-Q2,2022-04,Ukraine War Shock,American Airlines,USA,N. America,Flag Carrier,958,13720.09,1437.4,10.48,945.2,6.89,9.81,11.9,79.12,109.53,131.63,120000,10920000
+2022-Q3,2022-07,Ukraine War Shock,American Airlines,USA,N. America,Flag Carrier,958,12572.98,1031.83,8.21,879.99,7.0,9.05,36.1,18.58,80.69,94.49,120000,10920000
+2022-Q4,2022-10,Ukraine War Shock,American Airlines,USA,N. America,Flag Carrier,958,13907.89,1152.72,8.29,1184.57,8.52,9.35,10.2,20.33,93.25,105.56,120000,10920000
+2023-Q1,2023-01,Stabilisation,American Airlines,USA,N. America,Flag Carrier,958,12885.2,1060.66,8.23,877.88,6.81,9.88,8.9,7.48,84.29,97.13,120000,10920000
+2023-Q2,2023-04,Stabilisation,American Airlines,USA,N. America,Flag Carrier,958,14047.95,1113.51,7.93,847.62,6.03,9.59,8.2,12.14,88.18,101.97,120000,10920000
+2023-Q3,2023-07,Stabilisation,American Airlines,USA,N. America,Flag Carrier,958,12717.37,1064.92,8.37,629.69,4.95,8.67,34.0,30.25,85.16,97.52,120000,10920000
+2023-Q4,2023-10,Gaza-Israel Conflict,American Airlines,USA,N. America,Flag Carrier,958,12884.59,982.36,7.62,1717.1,13.33,9.23,57.5,0.0,78.33,89.96,120000,10920000
+2024-Q1,2024-01,Gaza-Israel Conflict,American Airlines,USA,N. America,Flag Carrier,958,12795.37,1081.3,8.45,695.42,5.43,9.63,36.9,39.99,84.61,99.02,120000,10920000
+2024-Q2,2024-04,Gaza-Israel Conflict,American Airlines,USA,N. America,Flag Carrier,958,14150.61,1111.44,7.85,773.89,5.47,9.02,59.6,86.7,84.06,101.78,120000,10920000
+2024-Q3,2024-07,Gaza-Israel Conflict,American Airlines,USA,N. America,Flag Carrier,958,13739.2,1026.26,7.47,1658.55,12.07,9.28,0.2,0.09,80.4,93.98,120000,10920000
+2024-Q4,2024-10,Gaza-Israel Conflict,American Airlines,USA,N. America,Flag Carrier,958,13368.62,1228.72,9.19,1858.25,13.9,10.18,4.7,14.45,94.78,112.52,120000,10920000
+2025-Q1,2025-01,Pre-Iran Escalation,American Airlines,USA,N. America,Flag Carrier,958,12862.24,1108.82,8.62,914.8,7.11,9.65,53.6,76.21,85.13,101.54,120000,10920000
+2025-Q2,2025-04,Pre-Iran Escalation,American Airlines,USA,N. America,Flag Carrier,958,12857.47,1315.1,10.23,1199.7,9.33,9.06,26.9,119.61,101.77,120.43,120000,10920000
+2025-Q3,2025-07,Pre-Iran Escalation,American Airlines,USA,N. America,Flag Carrier,958,13459.64,1225.44,9.1,932.47,6.93,9.54,44.6,134.94,93.24,112.22,120000,10920000
+2025-Q4,2025-10,Pre-Iran Escalation,American Airlines,USA,N. America,Flag Carrier,958,12647.26,1219.44,9.64,1729.27,13.67,8.31,23.4,68.71,99.34,111.67,120000,10920000
+2026-Q1,2026-01,US-Iran War Conflict,American Airlines,USA,N. America,Flag Carrier,958,10482.46,1603.06,15.29,-2534.69,-24.18,7.45,56.5,571.61,130.88,146.8,120000,10920000
+2019-Q1,2019-01,Pre-Pandemic Baseline,United Airlines,USA,N. America,Flag Carrier,952,14326.25,780.48,5.45,1040.36,7.26,9.97,50.5,0.0,63.0,74.58,115000,10465000
+2019-Q2,2019-04,Pre-Pandemic Baseline,United Airlines,USA,N. America,Flag Carrier,952,13195.03,767.5,5.82,1225.12,9.28,8.83,24.6,0.0,64.79,73.34,115000,10465000
+2019-Q3,2019-07,Pre-Pandemic Baseline,United Airlines,USA,N. America,Flag Carrier,952,12918.04,744.17,5.76,1042.34,8.07,8.28,19.6,0.0,60.46,71.11,115000,10465000
+2019-Q4,2019-10,Pre-Pandemic Baseline,United Airlines,USA,N. America,Flag Carrier,952,13330.17,805.49,6.04,1107.2,8.31,9.93,41.0,0.0,65.66,76.97,115000,10465000
+2020-Q1,2020-01,Pre-Pandemic Baseline,United Airlines,USA,N. America,Flag Carrier,952,14454.43,788.85,5.46,1431.93,9.91,10.55,54.2,0.0,66.66,75.38,115000,10465000
+2020-Q2,2020-04,COVID-19 Collapse,United Airlines,USA,N. America,Flag Carrier,952,3997.98,247.92,6.2,-1129.51,-28.25,2.71,36.9,0.0,20.57,23.69,115000,10465000
+2020-Q3,2020-07,COVID-19 Collapse,United Airlines,USA,N. America,Flag Carrier,952,2533.88,527.75,20.83,-748.61,-29.54,1.75,52.3,0.0,44.05,50.43,115000,10465000
+2020-Q4,2020-10,COVID-19 Collapse,United Airlines,USA,N. America,Flag Carrier,952,4437.08,477.83,10.77,-1849.38,-41.68,3.17,61.8,0.0,39.95,45.66,115000,10465000
+2021-Q1,2021-01,COVID-19 Collapse,United Airlines,USA,N. America,Flag Carrier,952,4478.26,897.58,20.04,-1081.02,-24.14,2.8,16.4,0.0,75.49,85.77,115000,10465000
+2021-Q2,2021-04,COVID-19 Collapse,United Airlines,USA,N. America,Flag Carrier,952,2411.9,951.48,39.45,-526.44,-21.83,1.74,34.6,3.37,76.83,90.92,115000,10465000
+2021-Q3,2021-07,Recovery & Surge,United Airlines,USA,N. America,Flag Carrier,952,11355.94,941.01,8.29,-280.34,-2.47,8.03,39.6,0.0,78.97,89.92,115000,10465000
+2021-Q4,2021-10,Recovery & Surge,United Airlines,USA,N. America,Flag Carrier,952,9640.37,1090.98,11.32,126.28,1.31,6.28,44.0,76.0,86.82,104.25,115000,10465000
+2022-Q1,2022-01,Recovery & Surge,United Airlines,USA,N. America,Flag Carrier,952,9849.23,852.27,8.65,-462.31,-4.69,7.39,32.6,0.0,72.01,81.44,115000,10465000
+2022-Q2,2022-04,Ukraine War Shock,United Airlines,USA,N. America,Flag Carrier,952,13977.13,1377.51,9.86,499.74,3.58,8.9,58.7,374.02,109.53,131.63,115000,10465000
+2022-Q3,2022-07,Ukraine War Shock,United Airlines,USA,N. America,Flag Carrier,952,13669.15,988.84,7.23,812.88,5.95,9.44,15.4,7.6,80.69,94.49,115000,10465000
+2022-Q4,2022-10,Ukraine War Shock,United Airlines,USA,N. America,Flag Carrier,952,14533.06,1104.69,7.6,539.75,3.71,9.31,60.5,115.55,93.25,105.56,115000,10465000
+2023-Q1,2023-01,Stabilisation,United Airlines,USA,N. America,Flag Carrier,952,13203.28,1016.47,7.7,1666.89,12.62,9.58,24.8,19.97,84.29,97.13,115000,10465000
+2023-Q2,2023-04,Stabilisation,United Airlines,USA,N. America,Flag Carrier,952,13197.05,1067.12,8.09,1529.52,11.59,9.26,16.5,23.42,88.18,101.97,115000,10465000
+2023-Q3,2023-07,Stabilisation,United Airlines,USA,N. America,Flag Carrier,952,14308.56,1020.55,7.13,1603.96,11.21,10.65,28.4,24.22,85.16,97.52,115000,10465000
+2023-Q4,2023-10,Gaza-Israel Conflict,United Airlines,USA,N. America,Flag Carrier,952,12977.49,941.43,7.25,1718.32,13.24,9.11,39.4,0.0,78.33,89.96,115000,10465000
+2024-Q1,2024-01,Gaza-Israel Conflict,United Airlines,USA,N. America,Flag Carrier,952,13773.44,1036.24,7.52,1201.59,8.72,9.01,39.8,41.33,84.61,99.02,115000,10465000
+2024-Q2,2024-04,Gaza-Israel Conflict,United Airlines,USA,N. America,Flag Carrier,952,14007.89,1065.13,7.6,1844.2,13.17,8.81,16.6,23.14,84.06,101.78,115000,10465000
+2024-Q3,2024-07,Gaza-Israel Conflict,United Airlines,USA,N. America,Flag Carrier,952,14109.26,983.5,6.97,1658.05,11.75,9.15,12.0,5.22,80.4,93.98,115000,10465000
+2024-Q4,2024-10,Gaza-Israel Conflict,United Airlines,USA,N. America,Flag Carrier,952,13394.5,1177.52,8.79,620.05,4.63,9.64,43.5,128.17,94.78,112.52,115000,10465000
+2025-Q1,2025-01,Pre-Iran Escalation,United Airlines,USA,N. America,Flag Carrier,952,14252.44,1062.62,7.46,1183.02,8.3,10.07,62.0,84.48,85.13,101.54,115000,10465000
+2025-Q2,2025-04,Pre-Iran Escalation,United Airlines,USA,N. America,Flag Carrier,952,14427.1,1260.3,8.74,679.63,4.71,8.94,62.4,265.9,101.77,120.43,115000,10465000
+2025-Q3,2025-07,Pre-Iran Escalation,United Airlines,USA,N. America,Flag Carrier,952,13688.01,1174.38,8.58,1506.23,11.0,10.19,28.2,81.76,93.24,112.22,115000,10465000
+2025-Q4,2025-10,Pre-Iran Escalation,United Airlines,USA,N. America,Flag Carrier,952,13522.8,1168.63,8.64,766.72,5.67,10.06,42.1,118.46,99.34,111.67,115000,10465000
+2026-Q1,2026-01,US-Iran War Conflict,United Airlines,USA,N. America,Flag Carrier,952,9881.52,1536.26,15.55,-1364.06,-13.8,6.56,9.6,93.08,130.88,146.8,115000,10465000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Delta Air Lines,USA,N. America,Flag Carrier,997,14117.82,848.35,6.01,1354.26,9.59,9.54,51.3,0.0,63.0,74.58,125000,11375000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Delta Air Lines,USA,N. America,Flag Carrier,997,14242.45,834.24,5.86,1874.07,13.16,9.54,13.3,0.0,64.79,73.34,125000,11375000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Delta Air Lines,USA,N. America,Flag Carrier,997,14554.03,808.88,5.56,1926.02,13.23,9.67,56.9,0.0,60.46,71.11,125000,11375000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Delta Air Lines,USA,N. America,Flag Carrier,997,14076.28,875.53,6.22,1849.57,13.14,9.26,60.8,0.0,65.66,76.97,125000,11375000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Delta Air Lines,USA,N. America,Flag Carrier,997,15407.56,857.45,5.57,1633.15,10.6,10.63,13.7,0.0,66.66,75.38,125000,11375000
+2020-Q2,2020-04,COVID-19 Collapse,Delta Air Lines,USA,N. America,Flag Carrier,997,3923.21,269.47,6.87,-1226.5,-31.26,2.53,32.9,0.0,20.57,23.69,125000,11375000
+2020-Q3,2020-07,COVID-19 Collapse,Delta Air Lines,USA,N. America,Flag Carrier,997,4869.52,573.64,11.78,-2184.82,-44.87,3.19,21.7,0.0,44.05,50.43,125000,11375000
+2020-Q4,2020-10,COVID-19 Collapse,Delta Air Lines,USA,N. America,Flag Carrier,997,4962.57,519.38,10.47,-1024.9,-20.65,3.37,35.8,0.0,39.95,45.66,125000,11375000
+2021-Q1,2021-01,COVID-19 Collapse,Delta Air Lines,USA,N. America,Flag Carrier,997,4794.32,975.63,20.35,-2149.6,-44.84,3.24,1.6,0.0,75.49,85.77,125000,11375000
+2021-Q2,2021-04,COVID-19 Collapse,Delta Air Lines,USA,N. America,Flag Carrier,997,4982.67,1034.21,20.76,-1843.39,-37.0,3.34,27.1,2.87,76.83,90.92,125000,11375000
+2021-Q3,2021-07,Recovery & Surge,Delta Air Lines,USA,N. America,Flag Carrier,997,12016.51,1022.84,8.51,961.04,8.0,7.32,47.6,0.0,78.97,89.92,125000,11375000
+2021-Q4,2021-10,Recovery & Surge,Delta Air Lines,USA,N. America,Flag Carrier,997,10492.2,1185.84,11.3,-334.92,-3.19,6.87,64.9,121.86,86.82,104.25,125000,11375000
+2022-Q1,2022-01,Recovery & Surge,Delta Air Lines,USA,N. America,Flag Carrier,997,10461.95,926.38,8.85,-145.82,-1.39,7.46,56.4,0.0,72.01,81.44,125000,11375000
+2022-Q2,2022-04,Ukraine War Shock,Delta Air Lines,USA,N. America,Flag Carrier,997,14032.72,1497.29,10.67,615.95,4.39,9.64,13.3,92.11,109.53,131.63,125000,11375000
+2022-Q3,2022-07,Ukraine War Shock,Delta Air Lines,USA,N. America,Flag Carrier,997,14452.69,1074.82,7.44,452.48,3.13,9.26,19.3,10.35,80.69,94.49,125000,11375000
+2022-Q4,2022-10,Ukraine War Shock,Delta Air Lines,USA,N. America,Flag Carrier,997,15065.21,1200.74,7.97,641.5,4.26,10.85,63.9,132.65,93.25,105.56,125000,11375000
+2023-Q1,2023-01,Stabilisation,Delta Air Lines,USA,N. America,Flag Carrier,997,13927.8,1104.85,7.93,1110.95,7.98,8.92,22.9,20.04,84.29,97.13,125000,11375000
+2023-Q2,2023-04,Stabilisation,Delta Air Lines,USA,N. America,Flag Carrier,997,14275.19,1159.91,8.13,1117.27,7.83,8.84,18.2,28.08,88.18,101.97,125000,11375000
+2023-Q3,2023-07,Stabilisation,Delta Air Lines,USA,N. America,Flag Carrier,997,15184.64,1109.29,7.31,1129.81,7.44,9.54,7.0,6.49,85.16,97.52,125000,11375000
+2023-Q4,2023-10,Gaza-Israel Conflict,Delta Air Lines,USA,N. America,Flag Carrier,997,14430.99,1023.29,7.09,1505.74,10.43,9.15,27.5,0.0,78.33,89.96,125000,11375000
+2024-Q1,2024-01,Gaza-Israel Conflict,Delta Air Lines,USA,N. America,Flag Carrier,997,15570.27,1126.35,7.23,1482.85,9.52,10.45,26.6,30.03,84.61,99.02,125000,11375000
+2024-Q2,2024-04,Gaza-Israel Conflict,Delta Air Lines,USA,N. America,Flag Carrier,997,14824.64,1157.75,7.81,2052.57,13.85,9.4,61.2,92.74,84.06,101.78,125000,11375000
+2024-Q3,2024-07,Gaza-Israel Conflict,Delta Air Lines,USA,N. America,Flag Carrier,997,14056.0,1069.02,7.61,718.41,5.11,9.67,16.3,7.71,80.4,93.98,125000,11375000
+2024-Q4,2024-10,Gaza-Israel Conflict,Delta Air Lines,USA,N. America,Flag Carrier,997,14612.68,1279.91,8.76,1650.73,11.3,9.81,0.9,2.88,94.78,112.52,125000,11375000
+2025-Q1,2025-01,Pre-Iran Escalation,Delta Air Lines,USA,N. America,Flag Carrier,997,14351.51,1155.02,8.05,666.9,4.65,10.39,51.7,76.57,85.13,101.54,125000,11375000
+2025-Q2,2025-04,Pre-Iran Escalation,Delta Air Lines,USA,N. America,Flag Carrier,997,15629.54,1369.89,8.76,2008.57,12.85,10.37,57.4,265.86,101.77,120.43,125000,11375000
+2025-Q3,2025-07,Pre-Iran Escalation,Delta Air Lines,USA,N. America,Flag Carrier,997,15042.55,1276.5,8.49,1390.83,9.25,9.77,44.3,139.61,93.24,112.22,125000,11375000
+2025-Q4,2025-10,Pre-Iran Escalation,Delta Air Lines,USA,N. America,Flag Carrier,997,14887.4,1270.25,8.53,1509.86,10.14,9.73,48.1,147.11,99.34,111.67,125000,11375000
+2026-Q1,2026-01,US-Iran War Conflict,Delta Air Lines,USA,N. America,Flag Carrier,997,10385.89,1669.85,16.08,-1088.11,-10.48,7.25,33.5,353.04,130.88,146.8,125000,11375000
+2019-Q1,2019-01,Pre-Pandemic Baseline,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1230.28,149.31,12.14,113.1,9.19,1.22,18.5,0.0,63.0,74.58,22000,2002000
+2019-Q2,2019-04,Pre-Pandemic Baseline,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1255.96,146.83,11.69,134.79,10.73,1.26,10.3,0.0,64.79,73.34,22000,2002000
+2019-Q3,2019-07,Pre-Pandemic Baseline,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1286.27,142.36,11.07,138.86,10.8,1.26,2.2,0.0,60.46,71.11,22000,2002000
+2019-Q4,2019-10,Pre-Pandemic Baseline,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1211.41,154.09,12.72,157.61,13.01,1.34,59.9,0.0,65.66,76.97,22000,2002000
+2020-Q1,2020-01,Pre-Pandemic Baseline,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1295.52,150.91,11.65,176.87,13.65,1.37,38.9,0.0,66.66,75.38,22000,2002000
+2020-Q2,2020-04,COVID-19 Collapse,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,337.8,47.43,14.04,-151.74,-44.92,0.33,9.4,0.0,20.57,23.69,22000,2002000
+2020-Q3,2020-07,COVID-19 Collapse,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,315.28,100.96,32.02,-107.94,-34.24,0.34,52.0,0.0,44.05,50.43,22000,2002000
+2020-Q4,2020-10,COVID-19 Collapse,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,393.06,91.41,23.26,-80.87,-20.57,0.43,22.6,0.0,39.95,45.66,22000,2002000
+2021-Q1,2021-01,COVID-19 Collapse,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,264.51,171.71,64.92,-96.5,-36.48,0.27,25.5,0.0,75.49,85.77,22000,2002000
+2021-Q2,2021-04,COVID-19 Collapse,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,206.22,182.02,88.27,-60.14,-29.16,0.22,30.0,0.56,76.83,90.92,22000,2002000
+2021-Q3,2021-07,Recovery & Surge,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,832.78,180.02,21.62,-31.55,-3.79,0.9,2.4,0.0,78.97,89.92,22000,2002000
+2021-Q4,2021-10,Recovery & Surge,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,993.7,208.71,21.0,78.69,7.92,1.08,47.0,15.53,86.82,104.25,22000,2002000
+2022-Q1,2022-01,Recovery & Surge,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,922.23,163.04,17.68,33.9,3.68,1.02,53.6,0.0,72.01,81.44,22000,2002000
+2022-Q2,2022-04,Ukraine War Shock,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1302.83,263.52,20.23,104.13,7.99,1.41,31.5,38.4,109.53,131.63,22000,2002000
+2022-Q3,2022-07,Ukraine War Shock,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1239.68,189.17,15.26,63.67,5.14,1.27,2.2,0.21,80.69,94.49,22000,2002000
+2022-Q4,2022-10,Ukraine War Shock,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1292.77,211.33,16.35,119.03,9.21,1.5,37.7,13.77,93.25,105.56,22000,2002000
+2023-Q1,2023-01,Stabilisation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1202.8,194.45,16.17,153.8,12.79,1.35,16.3,2.51,84.29,97.13,22000,2002000
+2023-Q2,2023-04,Stabilisation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1318.08,204.14,15.49,114.94,8.72,1.52,16.1,4.37,88.18,101.97,22000,2002000
+2023-Q3,2023-07,Stabilisation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1317.65,195.24,14.82,146.51,11.12,1.27,36.6,5.97,85.16,97.52,22000,2002000
+2023-Q4,2023-10,Gaza-Israel Conflict,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1303.77,180.1,13.81,72.54,5.56,1.41,19.8,0.0,78.33,89.96,22000,2002000
+2024-Q1,2024-01,Gaza-Israel Conflict,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1300.64,198.24,15.24,122.28,9.4,1.43,4.7,0.93,84.61,99.02,22000,2002000
+2024-Q2,2024-04,Gaza-Israel Conflict,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1209.89,203.76,16.84,115.19,9.52,1.21,32.4,8.64,84.06,101.78,22000,2002000
+2024-Q3,2024-07,Gaza-Israel Conflict,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1299.63,188.15,14.48,157.23,12.1,1.29,48.2,4.01,80.4,93.98,22000,2002000
+2024-Q4,2024-10,Gaza-Israel Conflict,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1246.52,225.27,18.07,134.49,10.79,1.24,33.5,18.88,94.78,112.52,22000,2002000
+2025-Q1,2025-01,Pre-Iran Escalation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1323.6,203.28,15.36,67.03,5.06,1.51,29.4,7.66,85.13,101.54,22000,2002000
+2025-Q2,2025-04,Pre-Iran Escalation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1321.28,241.1,18.25,179.48,13.58,1.32,43.8,35.71,101.77,120.43,22000,2002000
+2025-Q3,2025-07,Pre-Iran Escalation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1225.7,224.66,18.33,65.64,5.36,1.35,7.0,3.88,93.24,112.22,22000,2002000
+2025-Q4,2025-10,Pre-Iran Escalation,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1263.09,223.56,17.7,130.85,10.36,1.35,45.3,24.38,99.34,111.67,22000,2002000
+2026-Q1,2026-01,US-Iran War Conflict,Ethiopian Airlines,Ethiopia,Africa,Flag Carrier,138,1075.35,293.89,27.33,-81.24,-7.56,1.17,18.0,33.39,130.88,146.8,22000,2002000
+2019-Q1,2019-01,Pre-Pandemic Baseline,EgyptAir,Egypt,Africa,Flag Carrier,78,457.32,81.44,17.81,36.02,7.88,0.73,34.4,0.0,63.0,74.58,12000,1092000
+2019-Q2,2019-04,Pre-Pandemic Baseline,EgyptAir,Egypt,Africa,Flag Carrier,78,428.83,80.09,18.68,43.12,10.06,0.77,65.0,0.0,64.79,73.34,12000,1092000
+2019-Q3,2019-07,Pre-Pandemic Baseline,EgyptAir,Egypt,Africa,Flag Carrier,78,481.42,77.65,16.13,23.58,4.9,0.75,9.0,0.0,60.46,71.11,12000,1092000
+2019-Q4,2019-10,Pre-Pandemic Baseline,EgyptAir,Egypt,Africa,Flag Carrier,78,460.16,84.05,18.27,20.52,4.46,0.84,4.0,0.0,65.66,76.97,12000,1092000
+2020-Q1,2020-01,Pre-Pandemic Baseline,EgyptAir,Egypt,Africa,Flag Carrier,78,450.39,82.31,18.28,58.28,12.94,0.83,30.2,0.0,66.66,75.38,12000,1092000
+2020-Q2,2020-04,COVID-19 Collapse,EgyptAir,Egypt,Africa,Flag Carrier,78,111.46,25.87,23.21,-32.43,-29.1,0.18,21.1,0.0,20.57,23.69,12000,1092000
+2020-Q3,2020-07,COVID-19 Collapse,EgyptAir,Egypt,Africa,Flag Carrier,78,134.05,55.07,41.08,-40.37,-30.12,0.22,6.6,0.0,44.05,50.43,12000,1092000
+2020-Q4,2020-10,COVID-19 Collapse,EgyptAir,Egypt,Africa,Flag Carrier,78,73.7,49.86,67.66,-23.75,-32.23,0.13,42.7,0.0,39.95,45.66,12000,1092000
+2021-Q1,2021-01,COVID-19 Collapse,EgyptAir,Egypt,Africa,Flag Carrier,78,148.04,93.66,63.27,-36.41,-24.59,0.23,51.6,0.0,75.49,85.77,12000,1092000
+2021-Q2,2021-04,COVID-19 Collapse,EgyptAir,Egypt,Africa,Flag Carrier,78,128.37,99.28,77.34,-31.19,-24.3,0.23,22.5,0.23,76.83,90.92,12000,1092000
+2021-Q3,2021-07,Recovery & Surge,EgyptAir,Egypt,Africa,Flag Carrier,78,316.19,98.19,31.05,6.91,2.18,0.51,22.7,0.0,78.97,89.92,12000,1092000
+2021-Q4,2021-10,Recovery & Surge,EgyptAir,Egypt,Africa,Flag Carrier,78,298.72,113.84,38.11,23.56,7.89,0.48,50.7,9.14,86.82,104.25,12000,1092000
+2022-Q1,2022-01,Recovery & Surge,EgyptAir,Egypt,Africa,Flag Carrier,78,381.88,88.93,23.29,29.02,7.6,0.66,35.0,0.0,72.01,81.44,12000,1092000
+2022-Q2,2022-04,Ukraine War Shock,EgyptAir,Egypt,Africa,Flag Carrier,78,432.83,143.74,33.21,38.49,8.89,0.7,6.9,4.59,109.53,131.63,12000,1092000
+2022-Q3,2022-07,Ukraine War Shock,EgyptAir,Egypt,Africa,Flag Carrier,78,431.47,103.18,23.91,19.51,4.52,0.76,11.0,0.57,80.69,94.49,12000,1092000
+2022-Q4,2022-10,Ukraine War Shock,EgyptAir,Egypt,Africa,Flag Carrier,78,433.52,115.27,26.59,11.33,2.61,0.78,47.1,9.39,93.25,105.56,12000,1092000
+2023-Q1,2023-01,Stabilisation,EgyptAir,Egypt,Africa,Flag Carrier,78,453.09,106.07,23.41,37.61,8.3,0.71,25.0,2.1,84.29,97.13,12000,1092000
+2023-Q2,2023-04,Stabilisation,EgyptAir,Egypt,Africa,Flag Carrier,78,480.55,111.35,23.17,25.89,5.39,0.85,3.1,0.46,88.18,101.97,12000,1092000
+2023-Q3,2023-07,Stabilisation,EgyptAir,Egypt,Africa,Flag Carrier,78,445.73,106.49,23.89,55.58,12.47,0.74,45.7,4.07,85.16,97.52,12000,1092000
+2023-Q4,2023-10,Gaza-Israel Conflict,EgyptAir,Egypt,Africa,Flag Carrier,78,433.56,98.24,22.66,46.97,10.83,0.78,52.3,0.0,78.33,89.96,12000,1092000
+2024-Q1,2024-01,Gaza-Israel Conflict,EgyptAir,Egypt,Africa,Flag Carrier,78,453.17,108.13,23.86,59.1,13.04,0.77,53.2,5.77,84.61,99.02,12000,1092000
+2024-Q2,2024-04,Gaza-Israel Conflict,EgyptAir,Egypt,Africa,Flag Carrier,78,439.99,111.14,25.26,26.85,6.1,0.78,42.0,6.11,84.06,101.78,12000,1092000
+2024-Q3,2024-07,Gaza-Israel Conflict,EgyptAir,Egypt,Africa,Flag Carrier,78,467.06,102.63,21.97,29.73,6.37,0.77,16.8,0.76,80.4,93.98,12000,1092000
+2024-Q4,2024-10,Gaza-Israel Conflict,EgyptAir,Egypt,Africa,Flag Carrier,78,431.49,122.87,28.48,26.06,6.04,0.8,15.2,4.67,94.78,112.52,12000,1092000
+2025-Q1,2025-01,Pre-Iran Escalation,EgyptAir,Egypt,Africa,Flag Carrier,78,436.82,110.88,25.38,47.91,10.97,0.75,48.5,6.9,85.13,101.54,12000,1092000
+2025-Q2,2025-04,Pre-Iran Escalation,EgyptAir,Egypt,Africa,Flag Carrier,78,465.74,131.51,28.24,29.02,6.23,0.78,11.5,5.11,101.77,120.43,12000,1092000
+2025-Q3,2025-07,Pre-Iran Escalation,EgyptAir,Egypt,Africa,Flag Carrier,78,442.33,122.54,27.7,61.35,13.87,0.78,50.9,15.4,93.24,112.22,12000,1092000
+2025-Q4,2025-10,Pre-Iran Escalation,EgyptAir,Egypt,Africa,Flag Carrier,78,429.26,121.94,28.41,33.57,7.82,0.73,9.7,2.85,99.34,111.67,12000,1092000
+2026-Q1,2026-01,US-Iran War Conflict,EgyptAir,Egypt,Africa,Flag Carrier,78,391.37,160.31,40.96,-86.92,-22.21,0.68,36.0,36.42,130.88,146.8,12000,1092000
