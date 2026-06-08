@@ -1,6 +1,6 @@
 # ✈️ Airline Pricing & Fuel Shock Dataset (2019–2026)
 
-## 🌟 Overview
+## 🌟 Overview  
 This research-grade **synthetic dataset** — calibrated against real-world benchmarks — analyzes the cascading impact of oil price shocks on the global airline industry.
 
 It tracks how rising crude oil prices, driven by geopolitical conflicts, translated into:
